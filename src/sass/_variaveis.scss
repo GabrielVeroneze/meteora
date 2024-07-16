@@ -1,3 +1,5 @@
+@use '@/sass/functions' as *;
+
 // Cores de Fundo
 $cor-fundo-claro: #ffffff;
 $cor-fundo-destaque: #daff01;
@@ -24,16 +26,16 @@ $cor-texto-prateado: #adb5bd;
 $fonte-familia-primaria: 'Inter', sans-serif;
 
 // Tamanhos de Fonte
-$fonte-titulo-muito-pequeno: 16px;
-$fonte-titulo-pequeno: 20px;
-$fonte-titulo-medio: 24px;
-$fonte-titulo-grande: 28px;
-$fonte-titulo-muito-grande: 32px;
+$fonte-titulo-muito-pequeno: px-para-rem(16px);
+$fonte-titulo-pequeno: px-para-rem(20px);
+$fonte-titulo-medio: px-para-rem(24px);
+$fonte-titulo-grande: px-para-rem(28px);
+$fonte-titulo-muito-grande: px-para-rem(32px);
 
-$fonte-paragrafo-muito-pequeno: 13px;
-$fonte-paragrafo-pequeno: 15px;
-$fonte-paragrafo-medio: 16px;
-$fonte-paragrafo-grande: 20px;
+$fonte-paragrafo-muito-pequeno: px-para-rem(13px);
+$fonte-paragrafo-pequeno: px-para-rem(15px);
+$fonte-paragrafo-medio: px-para-rem(16px);
+$fonte-paragrafo-grande: px-para-rem(20px);
 
 // Pesos de Fonte
 $fonte-peso-normal: 400;
@@ -54,7 +56,7 @@ $borda-escura-2: 1px solid #000000;
 $borda-modal: 1px solid #dee2e6;
 
 // Espaçamentos
-$espacamento-extra-pequeno: 16px;
-$espacamento-pequeno: 26px;
-$espacamento-medio: 39px;
-$espacamento-grande: 165px;
+$espacamento-extra-pequeno: px-para-rem(16px);
+$espacamento-pequeno: px-para-rem(26px);
+$espacamento-medio: px-para-rem(39px);
+$espacamento-grande: px-para-rem(165px);
