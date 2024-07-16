@@ -1,0 +1,5 @@
+@function px-para-rem($valor-px) {
+    $tamanho-base-fonte: 16px;
+
+    @return $valor-px / $tamanho-base-fonte * 1rem;
+}
