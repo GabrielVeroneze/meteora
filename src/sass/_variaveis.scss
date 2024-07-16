@@ -1,7 +1,7 @@
 // Cores de Fundo
 $cor-fundo-escuro: #000000;
 $cor-fundo-claro: #ffffff;
-$cor-fundo-intermediario: #343a40;
+$cor-fundo-neutro: #343a40;
 $cor-fundo-destaque: #daff01;
 
 // Cores de Banner
@@ -18,7 +18,7 @@ $cor-texto-claro: #ffffff;
 $cor-texto-escuro: #212529;
 $cor-texto-destaque: #daff01;
 $cor-texto-acinzentado: #6c757d;
-$cor-texto-prata: #adb5bd;
+$cor-texto-prateado: #adb5bd;
 
 // Famílias de Fonte
 $fonte-familia-primaria: 'Inter', sans-serif;
@@ -44,14 +44,14 @@ $fonte-peso-bold: 700;
 $sombra-modal: 0px 4px 15px 0px #2c3f5859;
 
 // Bordas
-$borda-padrao-cinza: 1px solid #ced4da;
-$borda-padrao-branco: 1px solid #ffffff;
-$borda-padrao-transparente: 1px solid #00000021;
-$borda-dupla-preta: 2px solid #000000;
-$borda-padrao-roxa: 1px solid #9353ff;
-$borda-padrao-preta: 1px solid #000000;
-$borda-padrao-cinza-claro: 1px solid #dee2e6;
-$borda-padrao-cinza-escuro: 1px solid #d8d8d8;
+$borda-botao: 1px solid #9353ff;
+$borda-campo: 1px solid #ffffff;
+$borda-card: 1px solid #00000021;
+$borda-clara-1: 1px solid #ced4da;
+$borda-clara-2: 1px solid #d8d8d8;
+$borda-escura-1: 2px solid #000000;
+$borda-escura-2: 1px solid #000000;
+$borda-modal: 1px solid #dee2e6;
 
 // Espaçamentos
 $espacamento-extra-pequeno: 16px;
