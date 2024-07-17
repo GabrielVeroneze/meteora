@@ -1,0 +1,30 @@
+@use '@/sass/variaveis' as *;
+
+.navegacao {
+    &.aberto {
+        align-items: flex-end;
+        background-color: $cor-fundo-neutro;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 1.25rem 1.375rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    &.fechado {
+        margin-left: auto;
+
+        .lista {
+            display: none;
+        }
+    }
+
+    .lista {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
