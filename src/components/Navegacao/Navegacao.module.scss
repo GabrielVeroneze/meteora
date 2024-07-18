@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .navegacao {
     &.aberto {
@@ -28,3 +29,30 @@
     }
 }
 
+@include breakpoint(tablet) {
+    .navegacao {
+        &.aberto {
+            align-items: flex-start;
+            background-color: unset;
+            padding: 0;
+            position: static;
+        }
+
+        &.fechado {
+            justify-self: start;
+
+            .lista {
+                display: flex;
+            }
+        }
+
+        .lista {
+            flex-direction: row;
+            gap: 1.25rem;
+        }
+
+        > :first-child {
+            display: none;
+        }
+    }
+}
