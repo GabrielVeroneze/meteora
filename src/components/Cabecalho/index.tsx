@@ -1,4 +1,5 @@
 import Navegacao from '@/components/Navegacao'
+import CampoBusca from '@/components/CampoBusca'
 import logo from '@/assets/images/logo-clara.png'
 import styles from './Cabecalho.module.scss'
 
@@ -11,8 +12,7 @@ const Cabecalho = () => {
                 alt="Logotipo da Meteora"
             />
             <Navegacao />
-            <input className={styles.campo} type="text" />
-            <button className={styles.botao}>Buscar</button>
+            <CampoBusca />
         </header>
     )
 }
