@@ -14,7 +14,7 @@
     }
 
     &.fechado {
-        margin-left: auto;
+        justify-self: end;
 
         .lista {
             display: none;
