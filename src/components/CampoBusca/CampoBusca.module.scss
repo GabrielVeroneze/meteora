@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .campo {
     display: flex;
@@ -27,5 +28,31 @@
         font-weight: $fonte-peso-medio;
         letter-spacing: 0.46px;
         padding: 0.5625rem 1rem;
+    }
+}
+
+@include breakpoint(tablet) {
+    .campo {
+        gap: 1rem;
+        grid-column: 3 / 4;
+
+        .entrada {
+            background-color: $cor-fundo-escuro;
+            border: $borda-campo;
+            color: $cor-texto-claro;
+
+            &::placeholder {
+                color: $cor-texto-prateado;
+            }
+        }
+
+        .botao {
+            border: $borda-campo;
+            color: $cor-texto-claro;
+            font-size: $fonte-paragrafo-muito-pequeno;
+            font-weight: $fonte-peso-normal;
+            letter-spacing: normal;
+            padding: 0.5625rem 0.75rem;
+        }
     }
 }
