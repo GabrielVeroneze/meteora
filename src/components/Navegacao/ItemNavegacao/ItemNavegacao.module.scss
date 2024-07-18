@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .item {
     border-bottom: $borda-clara-1;
@@ -19,3 +20,11 @@
     }
 }
 
+@include breakpoint(tablet) {
+    .item {
+        border-bottom: none;
+        font-size: $fonte-paragrafo-muito-pequeno;
+        line-height: 1.25rem;
+        padding-bottom: 0;
+    }
+}
