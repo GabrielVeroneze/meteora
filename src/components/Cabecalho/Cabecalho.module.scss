@@ -35,3 +35,14 @@
         }
     }
 }
+
+@include breakpoint(desktop) {
+    .cabecalho {
+        gap: 2.5rem;
+        grid-template-columns: max-content 1fr 266px;
+
+        .imagem {
+            width: 132.75px;
+        }
+    }
+}
