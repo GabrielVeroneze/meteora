@@ -28,3 +28,10 @@
         padding-bottom: 0;
     }
 }
+
+@include breakpoint(desktop) {
+    .item {
+        font-size: $fonte-paragrafo-medio;
+        line-height: 1.5rem;
+    }
+}
