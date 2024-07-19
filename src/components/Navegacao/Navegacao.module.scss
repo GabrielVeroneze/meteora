@@ -56,3 +56,11 @@
         }
     }
 }
+
+@include breakpoint(desktop) {
+    .navegacao {
+        .lista {
+            gap: 2.5rem;
+        }
+    }
+}
