@@ -56,3 +56,17 @@
         }
     }
 }
+
+@include breakpoint(desktop) {
+    .campo {
+        .entrada {
+            font-size: $fonte-paragrafo-pequeno;
+        }
+
+        .botao {
+            font-size: $fonte-paragrafo-medio;
+            font-weight: $fonte-peso-medio;
+            letter-spacing: 0.46px;
+        }
+    }
+}
