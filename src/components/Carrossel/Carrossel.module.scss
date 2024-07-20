@@ -2,25 +2,4 @@
 
 .carrossel {
     height: 415px;
-
-    .slide {
-        align-items: flex-end;
-        background: url('@/assets/images/carrossel/banner-mobile-1.png') center /
-            cover no-repeat;
-        display: flex;
-        height: 100%;
-
-        .conteudo {
-            align-items: center;
-            background-color: $cor-banner-roxo;
-            display: flex;
-            height: 50%;
-            justify-content: center;
-            width: 100%;
-
-            .imagem {
-                width: 252px;
-            }
-        }
-    }
 }
