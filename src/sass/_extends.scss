@@ -1,0 +1,10 @@
+@use '@/sass/variaveis' as *;
+
+%banner-conteudo {
+    align-items: center;
+    background-color: $cor-banner-roxo;
+    display: flex;
+    height: 50%;
+    padding: 1.5rem $espacamento-pequeno;
+    width: 100%;
+}
