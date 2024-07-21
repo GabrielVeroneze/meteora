@@ -1,6 +1,7 @@
 import Banner from './Banner'
 import banner1 from '@/assets/images/carrossel/banner-mobile-1.png'
 import banner2 from '@/assets/images/carrossel/banner-mobile-2.png'
+import banner3 from '@/assets/images/carrossel/banner-mobile-3.png'
 import logo from '@/assets/images/logo-clara-com-texto.png'
 import styles from './Carrossel.module.scss'
 
@@ -13,6 +14,10 @@ const Carrossel = () => {
             <Banner imagemFundo={banner2}>
                 <h1>Coleção Atemporal</h1>
                 <p>Estilo e qualidade para durar.</p>
+            </Banner>
+            <Banner imagemFundo={banner3}>
+                <h1>Coleção Atemporal</h1>
+                <p>Alto impacto visual, baixo impacto ambiental.</p>
             </Banner>
         </section>
     )
