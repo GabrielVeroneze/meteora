@@ -2,41 +2,35 @@
 @use '@/sass/extends' as *;
 
 .banner {
-    align-items: flex-end;
-    background: url('@/assets/images/carrossel/banner-mobile-1.png') center /
-        cover no-repeat;
+    align-items: center;
+    background: center / cover no-repeat;
     display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     height: 100%;
+    padding: calc(208px + 1.5rem) $espacamento-pequeno 1.625rem;
 
-    .conteudoImagem {
-        @extend %banner-conteudo;
-        justify-content: center;
-
-        .imagem {
-            width: 252px;
-        }
+    > img {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 252px;
     }
 
-    .conteudoTexto {
-        @extend %banner-conteudo;
-        flex-direction: column;
-        gap: 0.5rem;
+    > h1 {
+        color: $cor-texto-claro;
+        font-size: $fonte-titulo-muito-grande;
+        font-weight: $fonte-peso-medio;
+        line-height: normal;
+        text-align: center;
+        text-transform: uppercase;
+    }
 
-        .titulo {
-            color: $cor-texto-claro;
-            font-size: $fonte-titulo-muito-grande;
-            font-weight: $fonte-peso-medio;
-            line-height: normal;
-            text-align: center;
-            text-transform: uppercase;
-        }
-
-        .texto {
-            color: $cor-texto-claro;
-            font-size: $fonte-paragrafo-medio;
-            font-weight: $fonte-peso-normal;
-            line-height: 1.375rem;
-            text-align: center;
-        }
+    > p {
+        color: $cor-texto-claro;
+        font-size: $fonte-paragrafo-medio;
+        font-weight: $fonte-peso-normal;
+        line-height: 1.375rem;
+        text-align: center;
     }
 }
