@@ -2,16 +2,23 @@ import styles from './Banner.module.scss'
 
 interface BannerProps {
     children: React.ReactNode
-    imagemFundo: string
+    imagem: {
+        mobile: string
+        alt: string
+    }
 }
 
-const Banner = ({ children, imagemFundo }: BannerProps) => {
+const Banner = ({ children, imagem }: BannerProps) => {
     return (
-        <div
-            className={styles.banner}
-            style={{ backgroundImage: `url(${imagemFundo})` }}
-        >
-            {children}
+        <div className={styles.banner}>
+            <picture className={styles.picture}>
+                <img
+                    className={styles.imagem}
+                    src={imagem.mobile}
+                    alt={imagem.alt}
+                />
+            </picture>
+            <div className={styles.conteudo}>{children}</div>
         </div>
     )
 }
