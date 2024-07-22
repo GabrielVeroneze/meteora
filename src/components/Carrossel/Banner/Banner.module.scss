@@ -77,3 +77,25 @@
         }
     }
 }
+
+@include breakpoint(desktop) {
+    .banner {
+        .conteudo {
+            gap: 0.5rem;
+            padding: 0 $espacamento-grande;
+
+            > img {
+                width: 410px;
+            }
+
+            > h1 {
+                font-size: $fonte-titulo-muito-grande * 1.5;
+            }
+
+            > p {
+                font-size: $fonte-paragrafo-grande;
+                line-height: 1.5rem;
+            }
+        }
+    }
+}
