@@ -5,6 +5,7 @@ interface BannerProps {
     imagem: {
         mobile: string
         tablet: string
+        desktop: string
         alt: string
     }
 }
@@ -13,6 +14,7 @@ const Banner = ({ children, imagem }: BannerProps) => {
     return (
         <div className={styles.banner}>
             <picture className={styles.picture}>
+                <source srcSet={imagem.desktop} media="(min-width: 1440px)" />
                 <source srcSet={imagem.tablet} media="(min-width: 768px)" />
                 <img
                     className={styles.imagem}
