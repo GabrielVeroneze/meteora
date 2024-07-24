@@ -1,0 +1,23 @@
+@use '@/sass/variaveis' as *;
+
+.card {
+    background-color: $cor-fundo-destaque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .imagem {
+        height: auto;
+        width: 100%;
+    }
+
+    .titulo {
+        background-color: $cor-fundo-escuro;
+        color: $cor-texto-claro;
+        font-size: $fonte-titulo-muito-pequeno;
+        font-weight: $fonte-peso-medio;
+        line-height: 35px;
+        text-align: center;
+        width: 100%;
+    }
+}
