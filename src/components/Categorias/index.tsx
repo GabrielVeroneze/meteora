@@ -6,11 +6,13 @@ const Categorias = () => {
     return (
         <section className={styles.categorias}>
             <h3 className={styles.titulo}>Busque por categoria:</h3>
-            <div className={styles.cards}>
+            <ul className={styles.lista}>
                 {categorias.map(categoria => (
-                    <CardCategoria key={categoria.id} {...categoria} />
+                    <li key={categoria.id}>
+                        <CardCategoria {...categoria} />
+                    </li>
                 ))}
-            </div>
+            </ul>
         </section>
     )
 }
