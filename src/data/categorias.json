@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "nome": "Bolsas",
-        "to": "/produtos/bolsas",
-        "imagem": "src/assets/images/categorias/bolsas.png",
-        "descricao": "Bolsa tote de couro trançado marrom com alça de corrente dourada. A bolsa possui um padrão criado pelo entrelaçamento das tiras de couro, conferindo uma aparência texturizada."
+        "nome": "Camisetas",
+        "link": "/produtos/camisetas",
+        "imagem": "src/assets/images/categorias/camisetas.png",
+        "descricao": "Camiseta verde-azulada com bolso no peito esquerdo e uma etiqueta de logo laranja no bolso."
     },
     {
         "id": 2,
-        "nome": "Calçados",
-        "to": "/produtos/calcados",
-        "imagem": "src/assets/images/categorias/calcados.png",
-        "descricao": "Par de tênis multicoloridos com design em tons de verde, vermelho, roxo e bege. Os tênis possuem solas grossas e cadarços vermelhos, posicionados contra um fundo branco, com um dos sapatos ligeiramente elevado acima do outro, criando uma apresentação dinâmica e estilosa."
+        "nome": "Bolsas",
+        "link": "/produtos/bolsas",
+        "imagem": "src/assets/images/categorias/bolsas.png",
+        "descricao": "Bolsa tote de couro trançado marrom com alça de corrente dourada. Ela possui um padrão criado pelo entrelaçamento das tiras de couro."
     },
     {
         "id": 3,
-        "nome": "Calças",
-        "to": "/produtos/calcas",
-        "imagem": "src/assets/images/categorias/calcas.png",
-        "descricao": "Pilha de jeans de várias tonalidades de azul, dobrados e empilhados ordenadamente, com o par superior exibindo bolsos traseiros de design clássico e textura de denim visível."
+        "nome": "Calçados",
+        "link": "/produtos/calcados",
+        "imagem": "src/assets/images/categorias/calcados.png",
+        "descricao": "Par de tênis multicoloridos com design em tons de verde, vermelho, roxo e bege. Os tênis possuem solas grossas e cadarços vermelhos."
     },
     {
         "id": 4,
-        "nome": "Camisetas",
-        "to": "/produtos/camisetas",
-        "imagem": "src/assets/images/categorias/camisetas.png",
-        "descricao": "Camiseta verde-azulada com bolso no peito esquerdo e uma etiqueta de logo laranja no bolso, exibida contra um fundo branco."
+        "nome": "Calças",
+        "link": "/produtos/calcas",
+        "imagem": "src/assets/images/categorias/calcas.png",
+        "descricao": "Pilha de jeans de várias tonalidades de azul, dobrados e empilhados ordenadamente, com bolsos traseiros e textura de denim visível."
     },
     {
         "id": 5,
         "nome": "Casacos",
-        "to": "/produtos/casacos",
+        "link": "/produtos/casacos",
         "imagem": "src/assets/images/categorias/casacos.png",
         "descricao": "Jaqueta bomber marrom com fechamento por zíper, punhos e cintura canelados, e um bolso utilitário na manga esquerda."
     },
     {
         "id": 6,
         "nome": "Óculos",
-        "to": "/produtos/oculos",
+        "link": "/produtos/oculos",
         "imagem": "src/assets/images/categorias/oculos.png",
-        "descricao": "Óculos de sol redondos com armação dourada e lentes verdes escuras, com ponte metálica fina e hastes delgadas, sendo a haste direita ligeiramente dobrada para fora."
+        "descricao": "Óculos de sol redondos com armação dourada e lentes verdes escuras, com ponte metálica fina e hastes delgadas."
     }
 ]
