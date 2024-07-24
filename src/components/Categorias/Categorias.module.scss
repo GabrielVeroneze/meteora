@@ -10,9 +10,9 @@
         text-align: center;
     }
 
-    .cards {
+    .lista {
         display: grid;
-        gap: 1.875rem 1rem;
+        gap: 1rem 1.875rem;
         grid-template-columns: repeat(auto-fit, minmax(146px, 1fr));
     }
 }
