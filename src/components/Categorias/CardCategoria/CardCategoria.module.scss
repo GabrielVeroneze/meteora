@@ -34,3 +34,12 @@
         }
     }
 }
+
+@include breakpoint(desktop) {
+    .card {
+        .imagem {
+            height: 75%;
+            width: 75%;
+        }
+    }
+}
