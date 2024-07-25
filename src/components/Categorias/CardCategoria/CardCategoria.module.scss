@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .card {
     align-items: center;
@@ -22,5 +23,14 @@
         font-size: $fonte-titulo-muito-pequeno;
         font-weight: $fonte-peso-medio;
         line-height: normal;
+    }
+}
+
+@include breakpoint(tablet) {
+    .card {
+        .imagem {
+            height: 65%;
+            width: 65%;
+        }
     }
 }
