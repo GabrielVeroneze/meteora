@@ -10,3 +10,9 @@
         padding: 2.5rem $espacamento-medio 3.25rem;
     }
 }
+
+@include breakpoint(desktop) {
+    .principal {
+        padding: 4.625rem $espacamento-grande 5.25rem;
+    }
+}
