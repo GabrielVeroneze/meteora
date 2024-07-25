@@ -30,3 +30,15 @@
         }
     }
 }
+
+@include breakpoint(desktop) {
+    .categorias {
+        .titulo {
+            font-size: $fonte-titulo-muito-grande;
+        }
+
+        .lista {
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        }
+    }
+}
