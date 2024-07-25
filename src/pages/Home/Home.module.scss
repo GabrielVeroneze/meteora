@@ -1,5 +1,12 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .principal {
     padding: 1.5rem $espacamento-pequeno 3rem;
+}
+
+@include breakpoint(tablet) {
+    .principal {
+        padding: 2.5rem $espacamento-medio 3.25rem;
+    }
 }
