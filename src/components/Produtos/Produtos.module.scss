@@ -1,0 +1,19 @@
+@use '@/sass/variaveis' as *;
+
+.produtos {
+    .titulo {
+        color: $cor-texto-escuro;
+        font-size: $fonte-titulo-grande;
+        font-weight: $fonte-peso-medio;
+        line-height: normal;
+        margin-bottom: 1.875rem;
+        text-align: center;
+    }
+
+    .lista {
+        display: grid;
+        gap: 1.875rem;
+        grid-template-columns: repeat(auto-fill, 323px);
+        justify-content: center;
+    }
+}
