@@ -1,0 +1,12 @@
+@use '@/sass/variaveis' as *;
+
+.botao {
+    background-color: $cor-botao-primario;
+    color: $cor-texto-claro;
+    font-size: $fonte-paragrafo-medio;
+    font-weight: $fonte-peso-medio;
+    letter-spacing: 0.46px;
+    line-height: 1.25rem;
+    padding: 0.5625rem 1rem;
+    width: max-content;
+}
