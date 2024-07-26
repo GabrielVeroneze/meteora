@@ -2,6 +2,9 @@
 @use '@/sass/mixins' as *;
 
 .principal {
+    display: flex;
+    flex-direction: column;
+    gap: 3.375rem;
     padding: 1.5rem $espacamento-pequeno 3rem;
 }
 
