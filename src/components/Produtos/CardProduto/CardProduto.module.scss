@@ -1,0 +1,41 @@
+@use '@/sass/variaveis' as *;
+
+.card {
+    border: $borda-card;
+    display: grid;
+    grid-template-rows: 402px max-content;
+
+    .imagem {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.875rem;
+        padding: 0.8125rem 1rem 1rem;
+
+        .nome {
+            color: $cor-texto-escuro;
+            font-size: $fonte-titulo-muito-pequeno;
+            font-weight: $fonte-peso-bold;
+            line-height: 1.375rem;
+        }
+
+        .descricao {
+            color: $cor-texto-escuro;
+            font-size: $fonte-paragrafo-muito-pequeno;
+            font-weight: $fonte-peso-normal;
+            line-height: 1.25rem;
+        }
+
+        .preco {
+            color: $cor-texto-escuro;
+            font-size: $fonte-paragrafo-medio;
+            font-weight: $fonte-peso-bold;
+            line-height: 1.375rem;
+        }
+    }
+}
