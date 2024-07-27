@@ -47,3 +47,9 @@
         grid-template-rows: 389px 1fr;
     }
 }
+
+@include breakpoint(desktop) {
+    .card {
+        grid-template-rows: 422px 1fr;
+    }
+}
