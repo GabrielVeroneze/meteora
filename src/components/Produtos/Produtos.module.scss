@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .produtos {
     .titulo {
@@ -15,5 +16,18 @@
         gap: 1.875rem;
         grid-template-columns: repeat(auto-fill, 323px);
         justify-content: center;
+    }
+}
+
+@include breakpoint(tablet) {
+    .produtos {
+        .titulo {
+            margin-bottom: 2rem;
+        }
+
+        .lista {
+            gap: 2rem 1.875rem;
+            grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        }
     }
 }
