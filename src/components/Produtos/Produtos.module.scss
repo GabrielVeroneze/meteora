@@ -31,3 +31,17 @@
         }
     }
 }
+
+@include breakpoint(desktop) {
+    .produtos {
+        .titulo {
+            font-size: $fonte-titulo-muito-grande;
+            margin-bottom: 1.875rem;
+        }
+
+        .lista {
+            gap: 1.875rem;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        }
+    }
+}
