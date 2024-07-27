@@ -17,6 +17,7 @@
 
 @include breakpoint(desktop) {
     .principal {
+        gap: 3rem;
         padding: 4.625rem $espacamento-grande 5.25rem;
     }
 }
