@@ -10,6 +10,7 @@
 
 @include breakpoint(tablet) {
     .principal {
+        gap: 2.8125rem;
         padding: 2.5rem $espacamento-medio 3.25rem;
     }
 }
