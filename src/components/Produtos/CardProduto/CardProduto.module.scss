@@ -3,7 +3,7 @@
 .card {
     border: $borda-card;
     display: grid;
-    grid-template-rows: 402px max-content;
+    grid-template-rows: 402px 1fr;
 
     .imagem {
         height: 100%;
@@ -36,6 +36,7 @@
             font-size: $fonte-paragrafo-medio;
             font-weight: $fonte-peso-bold;
             line-height: 1.375rem;
+            margin-top: auto;
         }
     }
 }
