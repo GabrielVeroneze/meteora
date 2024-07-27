@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .card {
     border: $borda-card;
@@ -38,5 +39,11 @@
             line-height: 1.375rem;
             margin-top: auto;
         }
+    }
+}
+
+@include breakpoint(tablet) {
+    .card {
+        grid-template-rows: 389px 1fr;
     }
 }
