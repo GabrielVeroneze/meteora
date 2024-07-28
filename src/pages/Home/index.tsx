@@ -2,6 +2,7 @@ import Cabecalho from '@/components/Cabecalho'
 import Carrossel from '@/components/Carrossel'
 import Categorias from '@/components/Categorias'
 import Produtos from '@/components/Produtos'
+import Facilidades from '@/components/Facilidades'
 import styles from './Home.module.scss'
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
                 <Categorias />
                 <Produtos />
             </main>
+            <Facilidades />
         </>
     )
 }
