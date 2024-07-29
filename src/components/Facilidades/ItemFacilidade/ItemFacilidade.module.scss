@@ -1,0 +1,47 @@
+@use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
+
+.item {
+    display: grid;
+    gap: 1rem 1.5rem;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: repeat(2, max-content);
+
+    .icone {
+        align-self: center;
+        grid-row: 1 / 3;
+        height: 56px;
+        width: 56px;
+    }
+
+    .titulo {
+        color: $cor-texto-destaque;
+        font-size: $fonte-titulo-muito-pequeno;
+        font-weight: $fonte-peso-bold;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .texto {
+        color: $cor-texto-claro;
+        font-size: $fonte-paragrafo-muito-pequeno;
+        font-weight: $fonte-peso-normal;
+        line-height: 1.25rem;
+        max-width: 200px;
+    }
+}
+
+@include breakpoint(tablet) {
+    .item {
+        .icone {
+            height: 72px;
+            width: 72px;
+        }
+    }
+}
+
+@include breakpoint(desktop) {
+    .item {
+        grid-template-columns: max-content 208px;
+    }
+}
