@@ -73,3 +73,17 @@
         }
     }
 }
+
+@include breakpoint(desktop) {
+    .secao {
+        padding: 2.5rem $espacamento-grande;
+
+        .lista {
+            flex-direction: row;
+
+            .item {
+                grid-template-columns: max-content 208px;
+            }
+        }
+    }
+}
