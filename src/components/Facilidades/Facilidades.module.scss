@@ -2,6 +2,9 @@
 
 .secao {
     background-color: $cor-fundo-escuro;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     padding: 2rem $espacamento-pequeno;
 
     .titulo {
@@ -9,7 +12,6 @@
         font-size: $fonte-titulo-medio;
         font-weight: $fonte-peso-medio;
         line-height: normal;
-        margin-bottom: 2rem;
         text-align: center;
     }
 
@@ -44,6 +46,7 @@
                 font-size: $fonte-paragrafo-muito-pequeno;
                 font-weight: $fonte-peso-normal;
                 line-height: 1.25rem;
+                max-width: 200px;
             }
         }
     }
