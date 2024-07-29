@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .secao {
     background-color: $cor-fundo-escuro;
@@ -47,6 +48,27 @@
                 font-weight: $fonte-peso-normal;
                 line-height: 1.25rem;
                 max-width: 200px;
+            }
+        }
+    }
+}
+
+@include breakpoint(tablet) {
+    .secao {
+        align-items: center;
+        gap: 2.5rem;
+        padding: 2.5rem $espacamento-medio;
+
+        .titulo {
+            font-size: $fonte-titulo-muito-grande;
+        }
+
+        .lista {
+            .item {
+                .icone {
+                    height: 72px;
+                    width: 72px;
+                }
             }
         }
     }
