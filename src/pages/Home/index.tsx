@@ -3,6 +3,7 @@ import Carrossel from '@/components/Carrossel'
 import Categorias from '@/components/Categorias'
 import Produtos from '@/components/Produtos'
 import Facilidades from '@/components/Facilidades'
+import Newsletter from '@/components/Newsletter'
 import styles from './Home.module.scss'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
                 <Produtos />
             </main>
             <Facilidades />
+            <Newsletter />
         </>
     )
 }
