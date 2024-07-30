@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .secao {
     border: $borda-escura-2;
@@ -30,6 +31,24 @@
             &::placeholder {
                 color: $cor-texto-acinzentado;
             }
+        }
+    }
+}
+
+@include breakpoint(tablet) {
+    .secao {
+        border: $borda-escura-1;
+        margin: 2.375rem $espacamento-medio;
+        padding: 2.5rem 3.75rem;
+
+        .texto {
+            font-size: $fonte-paragrafo-grande;
+            line-height: normal;
+        }
+
+        .campo {
+            margin: 0 auto;
+            width: 440px;
         }
     }
 }
