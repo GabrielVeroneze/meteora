@@ -52,3 +52,14 @@
         }
     }
 }
+
+@include breakpoint(desktop) {
+    .secao {
+        margin: 4.125rem $espacamento-grande + 11.875rem;
+        padding: 2.5rem 1rem;
+
+        .campo {
+            width: 540px;
+        }
+    }
+}
