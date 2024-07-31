@@ -4,7 +4,7 @@ const Rodape = () => {
     return (
         <footer className={styles.rodape}>
             <p className={styles.texto}>
-                2023 © Desenvolvido por{' '}
+                2024 © Desenvolvido por{' '}
                 <a href="https://github.com/GabrielVeroneze" target="_blank">
                     Gabriel
                 </a>{' '}
