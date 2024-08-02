@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .carrossel {
     height: 415px;
@@ -41,6 +42,20 @@
 
         .swiper-pagination-bullet-active {
             background-color: #ffffff;
+        }
+    }
+}
+
+@include breakpoint(tablet) {
+    .carrossel {
+        :global {
+            .swiper-button-next {
+                right: 35px;
+            }
+
+            .swiper-button-prev {
+                left: 35px;
+            }
         }
     }
 }
