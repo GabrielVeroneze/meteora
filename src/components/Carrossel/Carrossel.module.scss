@@ -2,4 +2,45 @@
 
 .carrossel {
     height: 415px;
+
+    :global {
+        .swiper-button-next,
+        .swiper-button-prev {
+            background: center / cover no-repeat;
+            height: 18px;
+            margin-top: 0;
+            top: 199px;
+            width: 18px;
+
+            &::after {
+                content: none;
+            }
+        }
+
+        .swiper-button-next {
+            background-image: url('src/assets/icons/seta-direita.svg');
+            right: 45px;
+        }
+
+        .swiper-button-prev {
+            background-image: url('src/assets/icons/seta-esquerda.svg');
+            left: 45px;
+        }
+
+        .swiper-pagination.swiper-pagination-horizontal {
+            bottom: 26px;
+        }
+
+        .swiper-pagination-bullet {
+            background-color: #ffffff80;
+            border-radius: 0;
+            height: 3px;
+            opacity: 1;
+            width: 30px;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #ffffff;
+        }
+    }
 }
