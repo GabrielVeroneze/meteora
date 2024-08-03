@@ -32,4 +32,9 @@
             }
         }
     }
+
+    .conteudo {
+        border: $borda-card;
+        margin: 1rem $espacamento-extra-pequeno 2rem;
+    }
 }
