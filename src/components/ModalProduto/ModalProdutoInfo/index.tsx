@@ -2,8 +2,6 @@ import { formatarPrecoEmReal } from '@/utilities/formatarPreco'
 import styles from './ModalProdutoInfo.module.scss'
 
 interface ModalProdutoInfoProps {
-    imagem: string
-    alt: string
     nome: string
     descricao: string
     preco: number
@@ -11,8 +9,6 @@ interface ModalProdutoInfoProps {
 }
 
 const ModalProdutoInfo = ({
-    imagem,
-    alt,
     nome,
     descricao,
     preco,
@@ -20,7 +16,6 @@ const ModalProdutoInfo = ({
 }: ModalProdutoInfoProps) => {
     return (
         <div className={styles.info}>
-            <img className={styles.imagem} src={imagem} alt={alt} />
             <h5 className={styles.nome}>{nome}</h5>
             <p className={styles.descricao}>{descricao}</p>
             <p className={styles.preco}>

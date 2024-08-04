@@ -16,13 +16,12 @@ const ModalProduto = () => {
                 <BotaoIcone icone={icones.fecharModal} />
             </header>
             <section className={styles.conteudo}>
+                <img className={styles.imagem} src={imagemProduto} alt="Pessoa em pé contra fundo claro e monocromático, vestindo jaqueta jeans sobre moletom preto e gorro escuro." />
                 <ModalProdutoInfo
                     nome="Jaqueta Jeans"
                     descricao="Modelo unissex oversized com gola de camurça. Atemporal e autêntica!"
                     preco={150.00}
                     fornecedor="Vendido e entregue por Riachuelo"
-                    imagem={imagemProduto}
-                    alt="Pessoa em pé contra fundo claro e monocromático, vestindo jaqueta jeans sobre moletom preto e gorro escuro."
                 />
                 <form className={styles.formulario}>
                     <fieldset className={styles.fieldset}>
