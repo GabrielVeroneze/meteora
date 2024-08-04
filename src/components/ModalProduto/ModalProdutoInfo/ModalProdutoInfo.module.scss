@@ -1,4 +1,5 @@
 @use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
 
 .info {
     display: flex;
@@ -34,5 +35,11 @@
         font-size: $fonte-paragrafo-muito-pequeno;
         font-weight: $fonte-peso-normal;
         line-height: 1.25rem;
+    }
+}
+
+@include breakpoint(tablet) {
+    .info {
+        padding-top: 0;
     }
 }
