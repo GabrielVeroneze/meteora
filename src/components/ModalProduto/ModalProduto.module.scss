@@ -35,6 +35,9 @@
 
     .conteudo {
         border: $borda-card;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 422px max-content max-content;
         margin: 1rem $espacamento-extra-pequeno 2rem;
         padding: 0 1rem;
 
