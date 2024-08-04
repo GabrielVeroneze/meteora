@@ -6,14 +6,6 @@
     gap: 1.5rem;
     padding: 0 1rem 1rem;
 
-    .imagem {
-        height: 422px;
-        left: -1rem;
-        object-fit: cover;
-        position: relative;
-        width: calc(100% + 2rem);
-    }
-
     .nome {
         color: $cor-texto-escuro;
         font-size: $fonte-titulo-muito-pequeno;

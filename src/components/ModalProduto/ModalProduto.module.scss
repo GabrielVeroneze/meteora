@@ -37,6 +37,14 @@
         border: $borda-card;
         margin: 1rem $espacamento-extra-pequeno 2rem;
 
+        .imagem {
+            height: 100%;
+            left: -1rem;
+            object-fit: cover;
+            position: relative;
+            width: calc(100% + 2rem);
+        }
+
         .formulario {
             display: flex;
             flex-direction: column;
