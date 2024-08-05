@@ -1,18 +1,25 @@
-import ModalProdutoInfo from './ModalProdutoInfo'
-import ModalProdutoOpcao from './ModalProdutoOpcao'
+import Modal from '@/components/Modal'
 import BotaoIcone from '@/components/BotaoIcone'
 import Botao from '@/components/Botao'
+import ModalProdutoInfo from './ModalProdutoInfo'
+import ModalProdutoOpcao from './ModalProdutoOpcao'
 import icones from '@/assets/icons'
 import imagemProduto from '@/assets/images/produtos/jaqueta-jeans.png'
 import styles from './ModalProduto.module.scss'
 
-const ModalProduto = () => {
+interface ModalProdutoProps {
+    aberto: boolean
+    onFechar: () => void
+}
+
+const ModalProduto = ({ aberto, onFechar }: ModalProdutoProps) => {
     return (
+        <Modal estaAberto={aberto}>
             <header className={styles.cabecalho}>
                 <h4 className={styles.titulo}>
                     Confira detalhes sobre o produto
                 </h4>
-                <BotaoIcone icone={icones.fecharModal} />
+                <BotaoIcone icone={icones.fecharModal} onClick={onFechar} />
             </header>
             <section className={styles.conteudo}>
                 <img
@@ -76,6 +83,7 @@ const ModalProduto = () => {
                     <Botao>Adicionar à sacola</Botao>
                 </form>
             </section>
+        </Modal>
     )
 }
 
