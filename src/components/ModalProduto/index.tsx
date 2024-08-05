@@ -8,7 +8,7 @@ import styles from './ModalProduto.module.scss'
 
 const ModalProduto = () => {
     return (
-        <div className={styles.modal}>
+        <dialog className={styles.modal}>
             <header className={styles.cabecalho}>
                 <h4 className={styles.titulo}>
                     Confira detalhes sobre o produto
@@ -16,7 +16,11 @@ const ModalProduto = () => {
                 <BotaoIcone icone={icones.fecharModal} />
             </header>
             <section className={styles.conteudo}>
-                <img className={styles.imagem} src={imagemProduto} alt="Pessoa em pé contra fundo claro e monocromático, vestindo jaqueta jeans sobre moletom preto e gorro escuro." />
+                <img
+                    className={styles.imagem}
+                    src={imagemProduto}
+                    alt="Pessoa em pé contra fundo claro e monocromático, vestindo jaqueta jeans sobre moletom preto e gorro escuro."
+                />
                 <ModalProdutoInfo
                     nome="Jaqueta Jeans"
                     descricao="Modelo unissex oversized com gola de camurça. Atemporal e autêntica!"
@@ -73,7 +77,7 @@ const ModalProduto = () => {
                     <Botao>Adicionar à sacola</Botao>
                 </form>
             </section>
-        </div>
+        </dialog>
     )
 }
 
