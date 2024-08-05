@@ -7,6 +7,10 @@
     box-shadow: $sombra-modal;
     overflow: hidden;
     width: 343px;
+
+    &::backdrop {
+        background: rgba(0, 0, 0, 0.5);
+    }
 }
 
 @include breakpoint(tablet) {
