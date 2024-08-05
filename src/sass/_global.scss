@@ -37,6 +37,11 @@ a {
     text-decoration: none;
 }
 
+dialog {
+    border: none;
+    padding: 0;
+}
+
 input[type='radio'] {
     appearance: none;
     background-color: #ffffff;
