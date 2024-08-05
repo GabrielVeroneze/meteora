@@ -8,9 +8,10 @@ interface CardProdutoProps {
     nome: string
     descricao: string
     preco: number
+    onVerMais: () => void
 }
 
-const CardProduto = ({ imagem, alt, nome, descricao, preco }: CardProdutoProps) => {
+const CardProduto = ({ imagem, alt, nome, descricao, preco, onVerMais }: CardProdutoProps) => {
     return (
         <li className={styles.card}>
             <img className={styles.imagem} src={imagem} alt={alt} />
@@ -20,7 +21,7 @@ const CardProduto = ({ imagem, alt, nome, descricao, preco }: CardProdutoProps) 
                 <p className={styles.preco}>
                     <strong>{formatarPrecoEmReal(preco)}</strong>
                 </p>
-                <Botao>Ver mais</Botao>
+                <Botao onClick={onVerMais}>Ver mais</Botao>
             </div>
         </li>
     )
