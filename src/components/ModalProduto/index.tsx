@@ -8,7 +8,6 @@ import styles from './ModalProduto.module.scss'
 
 const ModalProduto = () => {
     return (
-        <dialog className={styles.modal}>
             <header className={styles.cabecalho}>
                 <h4 className={styles.titulo}>
                     Confira detalhes sobre o produto
@@ -77,7 +76,6 @@ const ModalProduto = () => {
                     <Botao>Adicionar à sacola</Botao>
                 </form>
             </section>
-        </dialog>
     )
 }
 

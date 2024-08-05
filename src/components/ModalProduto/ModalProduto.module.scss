@@ -1,12 +1,6 @@
 @use '@/sass/variaveis' as *;
 @use '@/sass/mixins' as *;
 
-.modal {
-    background-color: $cor-fundo-claro;
-    border-radius: 0.25rem;
-    box-shadow: $sombra-modal;
-    overflow: hidden;
-    width: 343px;
 
     .cabecalho {
         align-items: center;
@@ -76,9 +70,6 @@
 }
 
 @include breakpoint(tablet) {
-    .modal {
-        width: 700px;
-
         .conteudo {
             border: none;
             column-gap: 1rem;

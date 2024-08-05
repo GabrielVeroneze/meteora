@@ -1,0 +1,16 @@
+@use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
+
+.modal {
+    background-color: $cor-fundo-claro;
+    border-radius: 0.25rem;
+    box-shadow: $sombra-modal;
+    overflow: hidden;
+    width: 343px;
+}
+
+@include breakpoint(tablet) {
+    .modal {
+        width: 700px;
+    }
+}
