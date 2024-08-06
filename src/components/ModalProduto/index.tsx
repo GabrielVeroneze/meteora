@@ -1,20 +1,24 @@
+import { IModal } from '@/types/IModal'
+import { IProduto } from '@/types/IProduto'
 import Modal from '@/components/Modal'
 import BotaoIcone from '@/components/BotaoIcone'
 import Botao from '@/components/Botao'
 import ModalProdutoInfo from './ModalProdutoInfo'
 import ModalProdutoOpcao from './ModalProdutoOpcao'
 import icones from '@/assets/icons'
-import imagemProduto from '@/assets/images/produtos/jaqueta-jeans.png'
 import styles from './ModalProduto.module.scss'
 
-interface ModalProdutoProps {
-    aberto: boolean
-    onFechar: () => void
+interface ModalProdutoProps extends IModal {
+    produto: IProduto | null
 }
 
-const ModalProduto = ({ aberto, onFechar }: ModalProdutoProps) => {
+const ModalProduto = ({ produto, estaAberto, onFechar }: ModalProdutoProps) => {
+    if (!produto) return null
+
+    const { imagem, alt, nome, descricao, preco, fornecedor } = produto
+
     return (
-        <Modal estaAberto={aberto}>
+        <Modal estaAberto={estaAberto}>
             <header className={styles.cabecalho}>
                 <h4 className={styles.titulo}>
                     Confira detalhes sobre o produto
@@ -24,14 +28,14 @@ const ModalProduto = ({ aberto, onFechar }: ModalProdutoProps) => {
             <section className={styles.conteudo}>
                 <img
                     className={styles.imagem}
-                    src={imagemProduto}
-                    alt="Pessoa em pé contra fundo claro e monocromático, vestindo jaqueta jeans sobre moletom preto e gorro escuro."
+                    src={imagem}
+                    alt={alt}
                 />
                 <ModalProdutoInfo
-                    nome="Jaqueta Jeans"
-                    descricao="Modelo unissex oversized com gola de camurça. Atemporal e autêntica!"
-                    preco={150.00}
-                    fornecedor="Vendido e entregue por Riachuelo"
+                    nome={nome}
+                    descricao={descricao}
+                    preco={preco}
+                    fornecedor={fornecedor}
                 />
                 <form className={styles.formulario}>
                     <fieldset className={styles.fieldset}>
