@@ -1,19 +1,13 @@
 import { formatarPrecoEmReal } from '@/utilities/formatarPreco'
+import { IProdutoInfo } from '@/types/IProdutoInfo'
 import styles from './ModalProdutoInfo.module.scss'
-
-interface ModalProdutoInfoProps {
-    nome: string
-    descricao: string
-    preco: number
-    fornecedor: string
-}
 
 const ModalProdutoInfo = ({
     nome,
     descricao,
     preco,
     fornecedor,
-}: ModalProdutoInfoProps) => {
+}: IProdutoInfo) => {
     return (
         <div className={styles.info}>
             <h5 className={styles.nome}>{nome}</h5>
@@ -21,7 +15,9 @@ const ModalProdutoInfo = ({
             <p className={styles.preco}>
                 <strong>{formatarPrecoEmReal(preco)}</strong>
             </p>
-            <p className={styles.fornecedor}>{fornecedor}</p>
+            <p className={styles.fornecedor}>
+                Vendido e entregue por {fornecedor}
+            </p>
         </div>
     )
 }
