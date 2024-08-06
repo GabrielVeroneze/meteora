@@ -1,17 +1,16 @@
 import { formatarPrecoEmReal } from '@/utilities/formatarPreco'
+import { IProduto } from '@/types/IProduto'
 import Botao from '@/components/Botao'
 import styles from './CardProduto.module.scss'
 
 interface CardProdutoProps {
-    imagem: string
-    alt: string
-    nome: string
-    descricao: string
-    preco: number
-    onVerMais: () => void
+    produto: IProduto
+    onVerMais: (produto: IProduto) => void
 }
 
-const CardProduto = ({ imagem, alt, nome, descricao, preco, onVerMais }: CardProdutoProps) => {
+const CardProduto = ({ produto, onVerMais }: CardProdutoProps) => {
+    const { imagem, alt, nome, descricao, preco } = produto
+
     return (
         <li className={styles.card}>
             <img className={styles.imagem} src={imagem} alt={alt} />
@@ -21,7 +20,7 @@ const CardProduto = ({ imagem, alt, nome, descricao, preco, onVerMais }: CardPro
                 <p className={styles.preco}>
                     <strong>{formatarPrecoEmReal(preco)}</strong>
                 </p>
-                <Botao onClick={onVerMais}>Ver mais</Botao>
+                <Botao onClick={() => onVerMais(produto)}>Ver mais</Botao>
             </div>
         </li>
     )
