@@ -1,6 +1,6 @@
-import styles from './ModalProdutoOpcao.module.scss'
+import styles from './ModalProdutoSelecao.module.scss'
 
-interface ModalProdutoOpcaoProps {
+interface ModalProdutoSelecaoProps {
     titulo: string
     opcoes: {
         id: string
@@ -9,7 +9,7 @@ interface ModalProdutoOpcaoProps {
     }[]
 }
 
-const ModalProdutoOpcao = ({ titulo, opcoes }: ModalProdutoOpcaoProps) => {
+const ModalProdutoSelecao = ({ titulo, opcoes }: ModalProdutoSelecaoProps) => {
     return (
         <fieldset className={styles.fieldset}>
             <legend className={styles.legend}>{titulo}</legend>
@@ -28,4 +28,4 @@ const ModalProdutoOpcao = ({ titulo, opcoes }: ModalProdutoOpcaoProps) => {
     )
 }
 
-export default ModalProdutoOpcao
+export default ModalProdutoSelecao
