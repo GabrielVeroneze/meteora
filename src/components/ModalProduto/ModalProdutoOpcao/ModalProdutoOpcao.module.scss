@@ -16,11 +16,16 @@
         width: 100%;
     }
 
-    .opcao {
+    .rotulo {
         align-items: center;
+        color: $cor-texto-escuro;
         display: flex;
         flex-direction: column;
+        font-size: $fonte-paragrafo-muito-pequeno;
+        font-weight: $fonte-peso-normal;
         gap: 0.5rem;
+        line-height: 1.25rem;
+        text-align: center;
 
         .entrada {
             border: 1px solid #dee2e6;
@@ -43,14 +48,6 @@
             &:checked::before {
                 transform: scale(1);
             }
-        }
-
-        .rotulo {
-            color: $cor-texto-escuro;
-            font-size: $fonte-paragrafo-muito-pequeno;
-            font-weight: $fonte-peso-normal;
-            line-height: 1.25rem;
-            text-align: center;
         }
     }
 }
