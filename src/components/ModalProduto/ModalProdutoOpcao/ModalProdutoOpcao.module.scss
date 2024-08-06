@@ -1,40 +1,56 @@
 @use '@/sass/variaveis' as *;
 
-.opcao {
-    align-items: center;
+.fieldset {
+    border-top: $borda-clara-2;
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 1rem;
 
-    .entrada {
-        border: 1px solid #dee2e6;
-        border-radius: 50%;
-        display: grid;
-        height: 13px;
-        place-content: center;
-        width: 13px;
-
-        &::before {
-            content: '';
-            border-radius: 50%;
-            box-shadow:
-                inset 0px 0px 0px 3px #9353ff,
-                0px 0px 0px 1px #c3c4ff;
-            height: 13px;
-            transform: scale(0);
-            width: 13px;
-        }
-
-        &:checked::before {
-            transform: scale(1);
-        }
+    .legend {
+        color: $cor-texto-escuro;
+        float: left;
+        font-size: $fonte-paragrafo-muito-pequeno;
+        font-weight: $fonte-peso-bold;
+        line-height: 1.25rem;
+        width: 100%;
     }
 
-    .rotulo {
-        color: $cor-texto-escuro;
-        font-size: $fonte-paragrafo-muito-pequeno;
-        font-weight: $fonte-peso-normal;
-        line-height: 1.25rem;
-        text-align: center;
+    .opcao {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .entrada {
+            border: 1px solid #dee2e6;
+            border-radius: 50%;
+            display: grid;
+            height: 13px;
+            place-content: center;
+            width: 13px;
+
+            &::before {
+                content: '';
+                border-radius: 50%;
+                box-shadow: inset 0px 0px 0px 3px #9353ff,
+                    0px 0px 0px 1px #c3c4ff;
+                height: 13px;
+                transform: scale(0);
+                width: 13px;
+            }
+
+            &:checked::before {
+                transform: scale(1);
+            }
+        }
+
+        .rotulo {
+            color: $cor-texto-escuro;
+            font-size: $fonte-paragrafo-muito-pequeno;
+            font-weight: $fonte-peso-normal;
+            line-height: 1.25rem;
+            text-align: center;
+        }
     }
 }
