@@ -1,24 +1,30 @@
 import styles from './ModalProdutoOpcao.module.scss'
 
 interface ModalProdutoOpcaoProps {
-    id: string
-    name: string
-    label: string
+    titulo: string
+    opcoes: {
+        id: string
+        name: string
+        label: string
+    }[]
 }
 
-const ModalProdutoOpcao = ({ id, name, label }: ModalProdutoOpcaoProps) => {
+const ModalProdutoOpcao = ({ titulo, opcoes }: ModalProdutoOpcaoProps) => {
     return (
-        <div className={styles.opcao}>
-            <input
-                className={styles.entrada}
-                type="radio"
-                name={name}
-                id={id}
-            />
-            <label className={styles.rotulo} htmlFor={id}>
-                {label}
-            </label>
-        </div>
+        <fieldset className={styles.fieldset}>
+            <legend className={styles.legend}>{titulo}</legend>
+            {opcoes.map(opcao => (
+                <label className={styles.rotulo} htmlFor={opcao.id}>
+                    <input
+                        className={styles.entrada}
+                        type="radio"
+                        name={opcao.name}
+                        id={opcao.id}
+                    />
+                    {opcao.label}
+                </label>
+            ))}
+        </fieldset>
     )
 }
 
