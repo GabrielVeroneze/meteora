@@ -1,11 +1,9 @@
 import { IModal } from '@/types/IModal'
 import { IProduto } from '@/types/IProduto'
 import Modal from '@/components/Modal'
-import BotaoIcone from '@/components/BotaoIcone'
 import Botao from '@/components/Botao'
 import ModalProdutoInfo from './ModalProdutoInfo'
 import ModalProdutoSelecao from './ModalProdutoSelecao'
-import icones from '@/assets/icons'
 import styles from './ModalProduto.module.scss'
 
 interface ModalProdutoProps extends IModal {
@@ -18,13 +16,11 @@ const ModalProduto = ({ produto, estaAberto, onFechar }: ModalProdutoProps) => {
     const { imagem, alt, nome, descricao, preco, fornecedor } = produto
 
     return (
-        <Modal estaAberto={estaAberto}>
-            <header className={styles.cabecalho}>
-                <h4 className={styles.titulo}>
-                    Confira detalhes sobre o produto
-                </h4>
-                <BotaoIcone icone={icones.fecharModal} onClick={onFechar} />
-            </header>
+        <Modal
+            titulo="Confira detalhes sobre o produto"
+            estaAberto={estaAberto}
+            onFechar={onFechar}
+        >
             <section className={styles.conteudo}>
                 <img
                     className={styles.imagem}
