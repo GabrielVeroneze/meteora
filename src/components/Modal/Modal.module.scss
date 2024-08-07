@@ -5,11 +5,14 @@
     background-color: $cor-fundo-claro;
     border-radius: 0.25rem;
     box-shadow: $sombra-modal;
-    overflow: hidden;
     width: 343px;
 
     &::backdrop {
         background: rgba(0, 0, 0, 0.5);
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
     }
 }
 
