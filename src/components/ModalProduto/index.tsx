@@ -4,7 +4,7 @@ import Modal from '@/components/Modal'
 import BotaoIcone from '@/components/BotaoIcone'
 import Botao from '@/components/Botao'
 import ModalProdutoInfo from './ModalProdutoInfo'
-import ModalProdutoOpcao from './ModalProdutoOpcao'
+import ModalProdutoSelecao from './ModalProdutoSelecao'
 import icones from '@/assets/icons'
 import styles from './ModalProduto.module.scss'
 
@@ -38,52 +38,24 @@ const ModalProduto = ({ produto, estaAberto, onFechar }: ModalProdutoProps) => {
                     fornecedor={fornecedor}
                 />
                 <form className={styles.formulario}>
-                    <fieldset className={styles.fieldset}>
-                        <legend className={styles.legend}>Cores:</legend>
-                        <ModalProdutoOpcao
-                            id="azul-claro"
-                            name="cor"
-                            label="Azul claro"
-                        />
-                        <ModalProdutoOpcao
-                            id="offwhite"
-                            name="cor"
-                            label="Offwhite"
-                        />
-                        <ModalProdutoOpcao
-                            id="preto"
-                            name="cor"
-                            label="Preto"
-                        />
-                    </fieldset>
-                    <fieldset className={styles.fieldset}>
-                        <legend className={styles.legend}>Tamanho:</legend>
-                        <ModalProdutoOpcao
-                            id="tamanho-p"
-                            name="tamanho"
-                            label="P"
-                        />
-                        <ModalProdutoOpcao
-                            id="tamanho-pp"
-                            name="tamanho"
-                            label="PP"
-                        />
-                        <ModalProdutoOpcao
-                            id="tamanho-m"
-                            name="tamanho"
-                            label="M"
-                        />
-                        <ModalProdutoOpcao
-                            id="tamanho-g"
-                            name="tamanho"
-                            label="G"
-                        />
-                        <ModalProdutoOpcao
-                            id="tamanho-gg"
-                            name="tamanho"
-                            label="GG"
-                        />
-                    </fieldset>
+                    <ModalProdutoSelecao
+                        titulo="Cores:"
+                        opcoes={[
+                            { id: 'azul-claro', name: 'cor', label: 'Azul claro' },
+                            { id: 'offwhite', name: 'cor', label: 'Offwhite' },
+                            { id: 'preto', name: 'cor', label: 'Preto' },
+                        ]}
+                    />
+                    <ModalProdutoSelecao
+                        titulo="Tamanho:"
+                        opcoes={[
+                            { id: 'tamanho-p', name: 'tamanho', label: 'P' },
+                            { id: 'tamanho-pp', name: 'tamanho', label: 'PP' },
+                            { id: 'tamanho-m', name: 'tamanho', label: 'M' },
+                            { id: 'tamanho-g', name: 'tamanho', label: 'G' },
+                            { id: 'tamanho-gg', name: 'tamanho', label: 'GG' },
+                        ]}
+                    />
                     <Botao>Adicionar à sacola</Botao>
                 </form>
             </section>
