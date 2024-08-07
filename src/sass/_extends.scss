@@ -1,0 +1,29 @@
+@use '@/sass/variaveis' as *;
+
+%produto-nome {
+    color: $cor-texto-escuro;
+    font-size: $fonte-titulo-muito-pequeno;
+    font-weight: $fonte-peso-bold;
+    line-height: 1.375rem;
+}
+
+%produto-descricao {
+    color: $cor-texto-escuro;
+    font-size: $fonte-paragrafo-muito-pequeno;
+    font-weight: $fonte-peso-normal;
+    line-height: 1.25rem;
+}
+
+%produto-preco {
+    color: $cor-texto-escuro;
+    font-size: $fonte-paragrafo-medio;
+    font-weight: $fonte-peso-bold;
+    line-height: 1.375rem;
+}
+
+%produto-fornecedor {
+    color: $cor-texto-prateado;
+    font-size: $fonte-paragrafo-muito-pequeno;
+    font-weight: $fonte-peso-normal;
+    line-height: 1.25rem;
+}
