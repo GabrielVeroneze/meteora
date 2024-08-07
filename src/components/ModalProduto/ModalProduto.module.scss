@@ -1,32 +1,6 @@
 @use '@/sass/variaveis' as *;
 @use '@/sass/mixins' as *;
 
-.cabecalho {
-    align-items: center;
-    background-color: $cor-fundo-escuro;
-    display: flex;
-    gap: 1.25rem;
-    height: 65px;
-    justify-content: space-between;
-    padding: 0.5rem 1.75rem 0.5rem 1rem;
-
-    .titulo {
-        align-items: center;
-        color: $cor-texto-claro;
-        display: flex;
-        font-size: $fonte-titulo-pequeno;
-        font-weight: $fonte-peso-medio;
-        line-height: normal;
-
-        &::before {
-            content: url('src/assets/icons/check.svg');
-            height: 32px;
-            margin-right: 1.25rem;
-            width: 32px;
-        }
-    }
-}
-
 .conteudo {
     border: $borda-card;
     display: grid;
