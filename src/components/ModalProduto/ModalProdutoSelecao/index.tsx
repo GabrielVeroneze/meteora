@@ -14,7 +14,11 @@ const ModalProdutoSelecao = ({ titulo, opcoes }: ModalProdutoSelecaoProps) => {
         <fieldset className={styles.fieldset}>
             <legend className={styles.legend}>{titulo}</legend>
             {opcoes.map(opcao => (
-                <label className={styles.rotulo} htmlFor={opcao.id}>
+                <label
+                    key={opcao.id}
+                    className={styles.rotulo}
+                    htmlFor={opcao.id}
+                >
                     <input
                         className={styles.entrada}
                         type="radio"
