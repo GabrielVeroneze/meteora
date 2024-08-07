@@ -1,5 +1,6 @@
 @use '@/sass/variaveis' as *;
 @use '@/sass/mixins' as *;
+@use '@/sass/extends' as *;
 
 .card {
     border: $borda-card;
@@ -19,24 +20,15 @@
         padding: 0.8125rem 1rem 1rem;
 
         .nome {
-            color: $cor-texto-escuro;
-            font-size: $fonte-titulo-muito-pequeno;
-            font-weight: $fonte-peso-bold;
-            line-height: 1.375rem;
+            @extend %produto-nome;
         }
 
         .descricao {
-            color: $cor-texto-escuro;
-            font-size: $fonte-paragrafo-muito-pequeno;
-            font-weight: $fonte-peso-normal;
-            line-height: 1.25rem;
+            @extend %produto-descricao;
         }
 
         .preco {
-            color: $cor-texto-escuro;
-            font-size: $fonte-paragrafo-medio;
-            font-weight: $fonte-peso-bold;
-            line-height: 1.375rem;
+            @extend %produto-preco;
             margin-top: auto;
         }
     }
