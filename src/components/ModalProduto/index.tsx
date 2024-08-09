@@ -1,25 +1,22 @@
-import { IModal } from '@/types/IModal'
-import { IProduto } from '@/types/IProduto'
+import { useModalProduto } from '@/context/modalProduto/useModalProduto'
 import Modal from '@/components/Modal'
 import Botao from '@/components/Botao'
 import ModalProdutoInfo from './ModalProdutoInfo'
 import ModalProdutoSelecao from './ModalProdutoSelecao'
 import styles from './ModalProduto.module.scss'
 
-interface ModalProdutoProps extends IModal {
-    produto: IProduto | null
-}
+const ModalProduto = () => {
+    const { modalEstaAberto, produtoSelecionado, fecharModal } = useModalProduto()
 
-const ModalProduto = ({ produto, estaAberto, onFechar }: ModalProdutoProps) => {
-    if (!produto) return null
+    if (!produtoSelecionado) return null
 
-    const { imagem, alt, nome, descricao, preco, fornecedor } = produto
+    const { imagem, alt, nome, descricao, preco, fornecedor } = produtoSelecionado
 
     return (
         <Modal
             titulo="Confira detalhes sobre o produto"
-            estaAberto={estaAberto}
-            onFechar={onFechar}
+            estaAberto={modalEstaAberto}
+            onFechar={fecharModal}
         >
             <section className={styles.conteudo}>
                 <img
