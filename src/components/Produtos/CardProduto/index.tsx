@@ -1,3 +1,4 @@
+import { useModalProduto } from '@/context/modalProduto/useModalProduto'
 import { formatarPrecoEmReal } from '@/utilities/formatarPreco'
 import { IProduto } from '@/types/IProduto'
 import Botao from '@/components/Botao'
@@ -5,11 +6,11 @@ import styles from './CardProduto.module.scss'
 
 interface CardProdutoProps {
     produto: IProduto
-    onVerMais: (produto: IProduto) => void
 }
 
-const CardProduto = ({ produto, onVerMais }: CardProdutoProps) => {
+const CardProduto = ({ produto }: CardProdutoProps) => {
     const { imagem, alt, nome, descricao, preco } = produto
+    const { abrirModal } = useModalProduto()
 
     return (
         <li className={styles.card}>
@@ -20,7 +21,7 @@ const CardProduto = ({ produto, onVerMais }: CardProdutoProps) => {
                 <p className={styles.preco}>
                     <strong>{formatarPrecoEmReal(preco)}</strong>
                 </p>
-                <Botao onClick={() => onVerMais(produto)}>Ver mais</Botao>
+                <Botao onClick={() => abrirModal(produto)}>Ver mais</Botao>
             </div>
         </li>
     )
