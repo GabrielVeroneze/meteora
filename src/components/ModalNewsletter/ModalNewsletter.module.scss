@@ -1,0 +1,12 @@
+@use '@/sass/variaveis' as *;
+
+.conteudo {
+    margin: 1rem $espacamento-extra-pequeno 2rem;
+
+    .texto {
+        color: $cor-texto-escuro;
+        font-size: $fonte-paragrafo-medio;
+        font-weight: $fonte-peso-normal;
+        line-height: 1.375rem;
+    }
+}
