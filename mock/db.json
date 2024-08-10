@@ -1,0 +1,108 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Camiseta Conforto",
+            "descricao": "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+            "categoria": "camisetas",
+            "preco": 70.00,
+            "fornecedor": "Riachuelo",
+            "imagem": "src/assets/images/produtos/camiseta-conforto.png",
+            "alt": "Pessoa em pé contra uma parede de concreto texturizada, vestindo camiseta amarelo mostarda e calças pretas, com um smartphone visível no bolso."
+        },
+        {
+            "id": 2,
+            "nome": "Calça Alfaiataria",
+            "descricao": "Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!",
+            "categoria": "calcas",
+            "preco": 180.00,
+            "fornecedor": "Riachuelo",
+            "imagem": "src/assets/images/produtos/calca-alfaiataria.png",
+            "alt": "Pessoa em pé em ambiente natural, vestindo camisa estampada, calças claras e saltos, com fundo de paisagem seca e vegetação esparsa sob céu limpo."
+        },
+        {
+            "id": 3,
+            "nome": "Tênis Chunky",
+            "descricao": "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
+            "categoria": "calcados",
+            "preco": 250.00,
+            "fornecedor": "Riachuelo",
+            "imagem": "src/assets/images/produtos/tenis-chunky.png",
+            "alt": "Pés de pessoa usando tênis brancos robustos com design intrincado, em pé em poça rasa que reflete os sapatos e parte das pernas."
+        },
+        {
+            "id": 4,
+            "nome": "Jaqueta Jeans",
+            "descricao": "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+            "categoria": "casacos",
+            "preco": 150.00,
+            "fornecedor": "Riachuelo",
+            "imagem": "src/assets/images/produtos/jaqueta-jeans.png",
+            "alt": "Pessoa em pé contra fundo claro e monocromático, vestindo jaqueta jeans sobre moletom preto e gorro escuro."
+        },
+        {
+            "id": 5,
+            "nome": "Óculos Redondo",
+            "descricao": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
+            "categoria": "oculos",
+            "preco": 120.00,
+            "fornecedor": "Riachuelo",
+            "imagem": "src/assets/images/produtos/oculos-redondo.png",
+            "alt": "Pessoa de cabelo curto sentada e olhando para o lado, usando óculos redondos, com fundo branco."
+        },
+        {
+            "id": 6,
+            "nome": "Bolsa coringa",
+            "descricao": "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+            "categoria": "bolsas",
+            "preco": 120.00,
+            "fornecedor": "Riachuelo",
+            "imagem": "src/assets/images/produtos/bolsa-coringa.png",
+            "alt": "Pessoa em calçada, vestindo casaco xadrez sobre blusa branca e calças pretas, segurando bolsa bege e usando mocassins pretos."
+        }
+    ],
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Camisetas",
+            "link": "/produtos/camisetas",
+            "imagem": "src/assets/images/categorias/camisetas.png",
+            "descricao": "Camiseta verde-azulada com bolso no peito esquerdo e uma etiqueta de logo laranja no bolso."
+        },
+        {
+            "id": 2,
+            "nome": "Bolsas",
+            "link": "/produtos/bolsas",
+            "imagem": "src/assets/images/categorias/bolsas.png",
+            "descricao": "Bolsa tote de couro trançado marrom com alça de corrente dourada. Ela possui um padrão criado pelo entrelaçamento das tiras de couro."
+        },
+        {
+            "id": 3,
+            "nome": "Calçados",
+            "link": "/produtos/calcados",
+            "imagem": "src/assets/images/categorias/calcados.png",
+            "descricao": "Par de tênis multicoloridos com design em tons de verde, vermelho, roxo e bege. Os tênis possuem solas grossas e cadarços vermelhos."
+        },
+        {
+            "id": 4,
+            "nome": "Calças",
+            "link": "/produtos/calcas",
+            "imagem": "src/assets/images/categorias/calcas.png",
+            "descricao": "Pilha de jeans de várias tonalidades de azul, dobrados e empilhados ordenadamente, com bolsos traseiros e textura de denim visível."
+        },
+        {
+            "id": 5,
+            "nome": "Casacos",
+            "link": "/produtos/casacos",
+            "imagem": "src/assets/images/categorias/casacos.png",
+            "descricao": "Jaqueta bomber marrom com fechamento por zíper, punhos e cintura canelados, e um bolso utilitário na manga esquerda."
+        },
+        {
+            "id": 6,
+            "nome": "Óculos",
+            "link": "/produtos/oculos",
+            "imagem": "src/assets/images/categorias/oculos.png",
+            "descricao": "Óculos de sol redondos com armação dourada e lentes verdes escuras, com ponte metálica fina e hastes delgadas."
+        }
+    ]
+}
