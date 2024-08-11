@@ -1,8 +1,10 @@
+import { useObterCategorias } from '@/hooks/useObterCategorias'
 import CardCategoria from './CardCategoria'
-import categorias from '@/data/categorias.json'
 import styles from './Categorias.module.scss'
 
 const Categorias = () => {
+    const { categorias } = useObterCategorias()
+
     return (
         <section className={styles.categorias}>
             <h3 className={styles.titulo}>Busque por categoria:</h3>
