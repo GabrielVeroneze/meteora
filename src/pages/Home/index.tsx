@@ -1,16 +1,13 @@
-import Cabecalho from '@/components/Cabecalho'
-import Carrossel from '@/components/Carrossel'
-import Categorias from '@/components/Categorias'
-import Produtos from '@/components/Produtos'
-import Facilidades from '@/components/Facilidades'
-import Newsletter from '@/components/Newsletter'
-import Rodape from '@/components/Rodape'
+import Carrossel from './Carrossel'
+import Categorias from './Categorias'
+import Produtos from './Produtos'
+import Facilidades from './Facilidades'
+import Newsletter from './Newsletter'
 import styles from './Home.module.scss'
 
 const Home = () => {
     return (
         <>
-            <Cabecalho />
             <Carrossel />
             <main className={styles.principal}>
                 <Categorias />
@@ -18,7 +15,6 @@ const Home = () => {
             </main>
             <Facilidades />
             <Newsletter />
-            <Rodape />
         </>
     )
 }
