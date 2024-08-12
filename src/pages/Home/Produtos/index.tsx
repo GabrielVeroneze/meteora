@@ -1,5 +1,5 @@
 import { useObterProdutos } from '@/hooks/useObterProdutos'
-import CardProduto from './CardProduto'
+import CardProduto from '@/components/CardProduto'
 import ModalProduto from '@/components/ModalProduto'
 import styles from './Produtos.module.scss'
 
