@@ -1,0 +1,71 @@
+@use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
+
+.principal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 1.5rem;
+    padding: 1.5rem $espacamento-pequeno 3rem;
+
+    .titulo {
+        color: $cor-texto-escuro;
+        font-size: $fonte-titulo-grande;
+        font-weight: $fonte-peso-medio;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .lista {
+        align-self: stretch;
+        display: grid;
+        gap: 1.875rem;
+        grid-template-columns: repeat(auto-fill, 323px);
+        justify-content: center;
+    }
+
+    .texto {
+        color: $cor-texto-escuro;
+        font-size: $fonte-titulo-medio;
+        font-weight: $fonte-peso-medio;
+        line-height: normal;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@include breakpoint(tablet) {
+    .principal {
+        gap: 2rem;
+        padding: 2.5rem $espacamento-medio 3.25rem;
+
+        .lista {
+            gap: 2rem 1.875rem;
+            grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+        }
+
+        .texto {
+            width: 50%;
+        }
+    }
+}
+
+@include breakpoint(desktop) {
+    .principal {
+        padding: 4.625rem $espacamento-grande 5.25rem;
+
+        .titulo {
+            font-size: $fonte-titulo-muito-grande;
+        }
+
+        .lista {
+            gap: 1.875rem;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        }
+
+        .texto {
+            font-size: $fonte-titulo-grande;
+        }
+    }
+}
