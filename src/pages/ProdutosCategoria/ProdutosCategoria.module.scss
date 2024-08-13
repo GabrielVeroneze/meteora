@@ -1,5 +1,6 @@
 @use '@/sass/variaveis' as *;
 @use '@/sass/mixins' as *;
+@use '@/sass/extends' as *;
 
 .principal {
     align-items: center;
@@ -10,11 +11,7 @@
     padding: 1.5rem $espacamento-pequeno 3rem;
 
     .titulo {
-        color: $cor-texto-escuro;
-        font-size: $fonte-titulo-grande;
-        font-weight: $fonte-peso-medio;
-        line-height: normal;
-        text-align: center;
+        @extend %titulo;
     }
 
     .lista {

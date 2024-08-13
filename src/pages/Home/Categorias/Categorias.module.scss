@@ -1,14 +1,11 @@
 @use '@/sass/variaveis' as *;
 @use '@/sass/mixins' as *;
+@use '@/sass/extends' as *;
 
 .categorias {
     .titulo {
-        color: $cor-texto-escuro;
-        font-size: $fonte-titulo-grande;
-        font-weight: $fonte-peso-medio;
-        line-height: normal;
+        @extend %titulo;
         margin-bottom: 1.5rem;
-        text-align: center;
     }
 
     .lista {
