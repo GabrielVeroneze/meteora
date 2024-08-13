@@ -15,7 +15,11 @@ export const useProdutosPorCategoria = () => {
 
     const buscarProdutosPorCategoria = (categoria: string) => {
         jsonServerApi
-            .get<IProduto[]>(`produtos?categoria=${categoria}`)
+            .get<IProduto[]>('produtos', {
+                params: {
+                    categoria: categoria,
+                },
+            })
             .then(resposta => {
                 setProdutos(resposta.data)
             })
