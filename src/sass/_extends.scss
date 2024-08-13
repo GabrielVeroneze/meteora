@@ -1,5 +1,13 @@
 @use '@/sass/variaveis' as *;
 
+%titulo {
+    color: $cor-texto-escuro;
+    font-size: $fonte-titulo-grande;
+    font-weight: $fonte-peso-medio;
+    line-height: normal;
+    text-align: center;
+}
+
 %produto-nome {
     color: $cor-texto-escuro;
     font-size: $fonte-titulo-muito-pequeno;
