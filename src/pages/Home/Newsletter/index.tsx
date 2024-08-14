@@ -1,5 +1,4 @@
 import Botao from '@/components/Botao'
-import ModalNewsletter from '@/components/ModalNewsletter'
 import styles from './Newsletter.module.scss'
 
 const Newsletter = () => {
@@ -17,7 +16,6 @@ const Newsletter = () => {
                 />
                 <Botao>Enviar</Botao>
             </div>
-            <ModalNewsletter />
         </section>
     )
 }
