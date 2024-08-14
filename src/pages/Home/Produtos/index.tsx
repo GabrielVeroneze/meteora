@@ -1,6 +1,5 @@
 import { useObterProdutos } from '@/hooks/useObterProdutos'
 import CardProduto from '@/components/CardProduto'
-import ModalProduto from '@/components/ModalProduto'
 import styles from './Produtos.module.scss'
 
 const Produtos = () => {
@@ -14,7 +13,6 @@ const Produtos = () => {
                     <CardProduto key={produto.id} produto={produto} />
                 ))}
             </ul>
-            <ModalProduto />
         </section>
     )
 }
