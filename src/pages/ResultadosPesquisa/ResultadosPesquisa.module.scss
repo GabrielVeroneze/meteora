@@ -3,11 +3,10 @@
 @use '@/sass/extends' as *;
 
 .principal {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     flex-grow: 1;
     gap: 1.5rem;
+    grid-template-rows: max-content 1fr;
     padding: 1.5rem $espacamento-pequeno 3rem;
 
     .titulo {
@@ -23,10 +22,11 @@
     }
 
     .texto {
-        color: $cor-texto-escuro;
+        color: $cor-texto-prateado;
         font-size: $fonte-titulo-medio;
         font-weight: $fonte-peso-medio;
         line-height: normal;
+        place-self: center;
         text-align: center;
         width: 80%;
     }
