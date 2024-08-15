@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Layout from '@/pages/Layout'
 import Home from '@/pages/Home'
 import ProdutosCategoria from '@/pages/ProdutosCategoria'
+import ResultadosPesquisa from '@/pages/ResultadosPesquisa'
 
 const AppRoutes = () => {
     return (
@@ -10,6 +11,7 @@ const AppRoutes = () => {
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path="produtos/:categoria" element={<ProdutosCategoria />} />
+                    <Route path="/search" element={<ResultadosPesquisa />} />
                 </Route>
             </Routes>
         </Router>
