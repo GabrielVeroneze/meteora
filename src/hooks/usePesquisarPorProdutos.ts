@@ -20,7 +20,7 @@ export const usePesquisarPorProdutos = () => {
         jsonServerApi
             .get<IProduto[]>('produtos', {
                 params: {
-                    nome: query,
+                    nome_like: query,
                 },
             })
             .then(resposta => {
