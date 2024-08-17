@@ -6,6 +6,7 @@ export const useNewsletterForm = () => {
     const {
         register,
         handleSubmit,
+        formState: { errors },
     } = useForm<NewsletterSchemaType>({
         mode: 'onTouched',
         resolver: zodResolver(newsletterSchema),
@@ -18,6 +19,7 @@ export const useNewsletterForm = () => {
     return {
         register,
         handleSubmit,
+        errors,
         cadastrar,
     }
 }
