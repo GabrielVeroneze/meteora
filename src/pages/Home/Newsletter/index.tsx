@@ -1,9 +1,10 @@
 import { useNewsletterForm } from '@/hooks/useNewsletterForm'
 import Botao from '@/components/Botao'
+import MensagemErro from '@/components/MensagemErro'
 import styles from './Newsletter.module.scss'
 
 const Newsletter = () => {
-    const { register, handleSubmit, cadastrar } = useNewsletterForm()
+    const { register, handleSubmit, errors, cadastrar } = useNewsletterForm()
 
     return (
         <section className={styles.secao}>
@@ -23,6 +24,9 @@ const Newsletter = () => {
                 />
                 <Botao>Enviar</Botao>
             </form>
+            {errors.email && (
+                <MensagemErro>{errors.email.message}</MensagemErro>
+            )}
         </section>
     )
 }
