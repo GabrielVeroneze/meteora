@@ -1,9 +1,17 @@
 import { useForm } from 'react-hook-form'
+import { zodResolver } from '@hookform/resolvers/zod'
+import { newsletterSchema, NewsletterSchemaType } from '@/schemas/newsletterSchema'
 
 export const useNewsletterForm = () => {
-    const { register, handleSubmit } = useForm({ mode: 'onTouched' })
+    const {
+        register,
+        handleSubmit,
+    } = useForm<NewsletterSchemaType>({
+        mode: 'onTouched',
+        resolver: zodResolver(newsletterSchema),
+    })
 
-    const cadastrar = (dados) => {
+    const cadastrar = (dados: NewsletterSchemaType) => {
         console.log(dados)
     }
 
