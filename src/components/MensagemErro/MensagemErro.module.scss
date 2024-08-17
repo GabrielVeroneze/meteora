@@ -1,0 +1,20 @@
+@use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
+
+.erro {
+    color: #ff0000;
+    display: block;
+    font-size: $fonte-paragrafo-muito-pequeno;
+    font-weight: $fonte-peso-normal;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+
+    @include breakpoint(tablet) {
+        font-size: $fonte-paragrafo-pequeno;
+    }
+
+    @include breakpoint(desktop) {
+        font-size: $fonte-paragrafo-medio;
+    }
+}
