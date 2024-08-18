@@ -11,7 +11,7 @@
     .lista {
         display: grid;
         gap: 1.875rem;
-        grid-template-columns: repeat(auto-fill, 323px);
+        grid-template-columns: repeat(auto-fill, minmax(min-content, 323px));
         justify-content: center;
     }
 }
