@@ -69,8 +69,10 @@
                 width: 260px;
             }
         }
+    }
 
-        &:nth-child(3) {
+    :global(.swiper-slide):nth-child(3) {
+        .banner {
             .conteudo {
                 align-items: flex-start;
             }
