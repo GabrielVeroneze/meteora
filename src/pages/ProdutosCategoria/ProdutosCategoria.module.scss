@@ -4,9 +4,6 @@
 
 .principal {
     @extend %principal;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
 
     .titulo {
         @extend %titulo;
@@ -20,6 +17,7 @@
         color: $cor-texto-escuro;
         font-size: $fonte-titulo-medio;
         font-weight: $fonte-peso-medio;
+        justify-self: center;
         line-height: normal;
         text-align: center;
         width: 80%;
