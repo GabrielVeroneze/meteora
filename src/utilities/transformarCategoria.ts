@@ -8,5 +8,5 @@ export const transformarCategoria = (categoria: string) => {
         oculos: 'Óculos',
     }
 
-    return mapeamento[categoria]
+    return mapeamento[categoria] || categoria
 }
