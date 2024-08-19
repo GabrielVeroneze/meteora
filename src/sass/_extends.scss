@@ -10,8 +10,11 @@
 }
 
 %principal {
+    align-items: start;
+    display: grid;
     flex-grow: 1;
     gap: 1.5rem;
+    grid-template-rows: max-content 1fr;
     padding: 1.5rem $espacamento-pequeno 3rem;
 
     @include breakpoint(tablet) {
@@ -25,7 +28,6 @@
 }
 
 %grid-produtos {
-    align-self: stretch;
     display: grid;
     gap: 1.875rem;
     grid-template-columns: repeat(auto-fill, 323px);

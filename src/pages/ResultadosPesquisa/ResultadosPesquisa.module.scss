@@ -4,8 +4,6 @@
 
 .principal {
     @extend %principal;
-    display: grid;
-    grid-template-rows: max-content 1fr;
 
     .titulo {
         @extend %titulo;
