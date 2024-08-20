@@ -20,7 +20,6 @@
         background-color: $cor-fundo-escuro;
         display: flex;
         gap: 1.25rem;
-        height: 65px;
         justify-content: space-between;
         padding: 0.5rem 1.75rem 0.5rem 1rem;
 
@@ -45,5 +44,9 @@
 @include breakpoint(tablet) {
     .modal {
         width: 700px;
+
+        .cabecalho {
+            padding: 1rem 1.75rem 1rem 1rem;
+        }
     }
 }
