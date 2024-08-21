@@ -11,3 +11,9 @@
 ### Página Home
 
 A Página Home é o ponto de entrada da plataforma, onde os usuários podem explorar os produtos oferecidos. Nesta página, estão disponíveis um carrossel de imagens, uma lista das categorias de produtos, uma galeria de produtos em destaque, uma seção que destaca as facilidades da loja, e uma área para cadastro na newsletter.
+
+<details>
+    <summary><b>:camera: Visualizar Screenshot</b></summary>
+    <br />
+    <img src="" />
+</details>
