@@ -24,3 +24,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Navegação`: Inclui links para páginas essenciais como "home", "nossas lojas", "novidades" e "promoções", facilitando o acesso às principais áreas do site.
 
+### Exploração de Produtos
+
+-   `Carrossel no Banner`: Implementa um carrossel funcional no banner principal, proporcionando destaque visual para produtos e promoções.
+
+-   `Listagem de Produtos`: Apresenta os produtos em forma de cartões, exibindo imagem, título, descrição, preço e um botão "Ver mais" para detalhamentos.
+
