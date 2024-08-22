@@ -17,3 +17,10 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
     <br />
     <img src="" />
 </details>
+
+## :rocket: Funcionalidades e Recursos
+
+### Navegação
+
+-   `Navegação`: Inclui links para páginas essenciais como "home", "nossas lojas", "novidades" e "promoções", facilitando o acesso às principais áreas do site.
+
