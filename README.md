@@ -44,3 +44,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Funcionalidade de Modal (Produto e Newsletter)`: Ambos os modais (produto e newsletter) possuem a funcionalidade de abrir ao clicar no item correspondente e fechar ao clicar no ícone de "X", proporcionando uma interação intuitiva.
 
+### Validações
+
+-   `Validação de E-mail na Newsletter`: Garante que o campo de e-mail seja preenchido corretamente, evitando envios vazios ou inválidos.
+
