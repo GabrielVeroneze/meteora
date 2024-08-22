@@ -30,3 +30,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Listagem de Produtos`: Apresenta os produtos em forma de cartões, exibindo imagem, título, descrição, preço e um botão "Ver mais" para detalhamentos.
 
+### Pesquisa e Filtros
+
+-   `Campo de Pesquisa`: Disponibiliza uma barra de pesquisa intuitiva, permitindo aos usuários buscar produtos específicos com rapidez.
+
+-   `Busca por Categorias`: Filtra os produtos de acordo com as categorias selecionadas, auxiliando os usuários na busca por itens específicos.
+
