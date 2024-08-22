@@ -36,3 +36,11 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Busca por Categorias`: Filtra os produtos de acordo com as categorias selecionadas, auxiliando os usuários na busca por itens específicos.
 
+### Modais Interativos
+
+-   `Modal de Produto`: Ao clicar em "Ver mais", um modal é aberto exibindo detalhes completos do produto, incluindo imagem, nome, descrição, preço, informações do vendedor, opções de cor e tamanho, além de um botão "Adicionar à sacola".
+
+-   `Modal da Newsletter`: Após o cadastro na newsletter, um modal é exibido confirmando o sucesso da operação, incluindo um cabeçalho de confirmação e um texto informativo sobre as próximas novidades.
+
+-   `Funcionalidade de Modal (Produto e Newsletter)`: Ambos os modais (produto e newsletter) possuem a funcionalidade de abrir ao clicar no item correspondente e fechar ao clicar no ícone de "X", proporcionando uma interação intuitiva.
+
