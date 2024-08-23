@@ -22,32 +22,32 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Navegação e Acesso
 
--   `Navegação`: Inclui links para páginas essenciais como "home", "nossas lojas", "novidades" e "promoções", facilitando o acesso às principais áreas do site.
+-   `Links de Navegação`: Inclui links para páginas essenciais como "home", "nossas lojas", "novidades" e "promoções", facilitando o acesso às principais áreas do site.
 
 ### Exploração de Produtos
 
--   `Carrossel no Banner`: Implementa um carrossel funcional no banner principal, proporcionando destaque visual para produtos e promoções.
+-   `Carrossel de Destaques`: Implementa um carrossel funcional no banner principal, proporcionando destaque visual para produtos e promoções.
 
--   `Listagem de Produtos`: Apresenta os produtos em forma de cartões, exibindo imagem, título, descrição, preço e um botão "Ver mais" para detalhamentos.
+-   `Visão Geral de Produtos`: Apresenta os produtos em forma de cartões, exibindo imagem, título, descrição, preço e um botão "Ver mais" para detalhamentos.
 
 ### Busca e Filtros
 
--   `Campo de Pesquisa`: Disponibiliza uma barra de pesquisa intuitiva, permitindo aos usuários buscar produtos específicos com rapidez.
+-   `Pesquisa de Produtos`: Disponibiliza uma barra de pesquisa intuitiva, permitindo aos usuários buscar produtos específicos com rapidez.
 
--   `Busca por Categorias`: Filtra os produtos de acordo com as categorias selecionadas, auxiliando os usuários na busca por itens específicos.
+-   `Filtro por Categoria`: Filtra os produtos de acordo com as categorias selecionadas, auxiliando os usuários na busca por itens específicos.
 
 ### Exibição de Modais
 
--   `Modal de Produto`: Ao clicar em "Ver mais", um modal é aberto exibindo detalhes completos do produto, incluindo imagem, nome, descrição, preço, informações do vendedor, opções de cor e tamanho, além de um botão "Adicionar à sacola".
+-   `Detalhes do Produto`: Ao clicar em "Ver mais", um modal é aberto exibindo detalhes completos do produto, incluindo imagem, nome, descrição, preço, informações do vendedor, opções de cor e tamanho, além de um botão "Adicionar à sacola".
 
--   `Modal da Newsletter`: Após o cadastro na newsletter, um modal é exibido confirmando o sucesso da operação, incluindo um cabeçalho de confirmação e um texto informativo sobre as próximas novidades.
+-   `Notificação de Inscrição`: Após o cadastro na newsletter, um modal é exibido confirmando o sucesso da operação, incluindo um cabeçalho de confirmação e um texto informativo sobre as próximas novidades.
 
--   `Funcionalidade de Modal (Produto e Newsletter)`: Ambos os modais (produto e newsletter) possuem a funcionalidade de abrir ao clicar no item correspondente e fechar ao clicar no ícone de "X", proporcionando uma interação intuitiva.
+-   `Controle de Modal`: Ambos os modais (produto e newsletter) possuem a funcionalidade de abrir ao clicar no item correspondente e fechar ao clicar no ícone de "X", proporcionando uma interação intuitiva.
 
 ### Validação de Formulários
 
--   `Validação de E-mail na Newsletter`: Garante que o campo de e-mail seja preenchido corretamente, evitando envios vazios ou inválidos.
+-   `Validação de Cadastro`: Garante que o campo de e-mail seja preenchido corretamente, evitando envios vazios ou inválidos.
 
 ### Interface Responsiva
 
--   `Responsividade`: Design adaptativo que garante uma experiência de navegação consistente em dispositivos móveis, tablets e desktops.
+-   `Layout Responsivo`: Design adaptativo que garante uma experiência de navegação consistente em dispositivos móveis, tablets e desktops.
