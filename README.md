@@ -32,9 +32,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Busca e Filtros
 
--   `Pesquisa de Produtos`: Disponibiliza uma barra de pesquisa intuitiva, permitindo aos usuários buscar produtos específicos com rapidez.
+-   `Pesquisa de Produtos`: Disponibiliza uma barra de pesquisa, permitindo que os usuários localizem rapidamente produtos específicos ao inserir termos relevantes.
 
--   `Filtro por Categoria`: Filtra os produtos de acordo com as categorias selecionadas, auxiliando os usuários na busca por itens específicos.
+-   `Seleção de Categoria`: Permite ao usuário selecionar entre diferentes categorias e visualizar todos os produtos relacionados à categoria escolhida, facilitando a busca por produtos específicos dentro dessa categoria.
 
 ### Exibição de Modais
 
