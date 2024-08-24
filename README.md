@@ -50,4 +50,4 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Interface Responsiva
 
--   `Layout Responsivo`: Design adaptativo que garante uma experiência de navegação consistente em dispositivos móveis, tablets e desktops.
+-   `Layout Responsivo`: Adapta automaticamente o design da interface para se ajustar a diferentes tamanhos de tela, garantindo uma experiência consistente e otimizada em dispositivos móveis, tablets e desktops.
