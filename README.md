@@ -26,9 +26,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Exploração de Produtos
 
--   `Carrossel de Destaques`: Implementa um carrossel funcional no banner principal, proporcionando destaque visual para produtos e promoções.
+-   `Carrossel de Destaques`: Apresenta um carrossel dinâmico no banner principal, destacando visualmente produtos e promoções importantes, promovendo maior visibilidade e engajamento.
 
--   `Visão Geral de Produtos`: Apresenta os produtos em forma de cartões, exibindo imagem, título, descrição, preço e um botão "Ver mais" para detalhamentos.
+-   `Visão Geral de Produtos`: Exibe produtos em formato de cartões, cada um contendo imagem, título, descrição, preço e um botão "Ver mais" que mostra detalhes completos do produto.
 
 ### Busca e Filtros
 
