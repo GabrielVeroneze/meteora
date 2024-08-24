@@ -22,7 +22,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Navegação e Acesso
 
--   `Links de Navegação`: Inclui links para páginas essenciais como "home", "nossas lojas", "novidades" e "promoções", facilitando o acesso às principais áreas do site.
+-   `Links de Navegação`: Oferece acesso direto às principais páginas do site, como "Home", "Nossas lojas", "Novidades" e "Promoções", facilitando a navegação entre as seções mais importantes da plataforma.
 
 ### Exploração de Produtos
 
