@@ -46,7 +46,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Validação de Formulários
 
--   `Validação de Cadastro`: Garante que o campo de e-mail seja preenchido corretamente, evitando envios vazios ou inválidos.
+-   `Validação de Cadastro`: Durante o cadastro, o campo de e-mail é validado para garantir que não esteja vazio e que o formato seja correto. Se o e-mail for inválido, uma mensagem de erro é exibida para orientar o usuário na correção.
 
 ### Interface Responsiva
 
