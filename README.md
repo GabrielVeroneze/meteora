@@ -24,30 +24,90 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Links de Navegação`: Oferece acesso direto às principais páginas do site, como "Home", "Nossas lojas", "Novidades" e "Promoções", facilitando a navegação entre as seções mais importantes da plataforma.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 ### Exploração de Produtos
 
 -   `Carrossel de Destaques`: Apresenta um carrossel dinâmico no banner principal, destacando visualmente produtos e promoções importantes, promovendo maior visibilidade e engajamento.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 -   `Visão Geral de Produtos`: Exibe produtos em formato de cartões, cada um contendo imagem, título, descrição, preço e um botão "Ver mais" que mostra detalhes completos do produto.
+
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
 
 ### Busca e Filtros
 
 -   `Pesquisa de Produtos`: Disponibiliza uma barra de pesquisa, permitindo que os usuários localizem rapidamente produtos específicos ao inserir termos relevantes.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 -   `Seleção de Categoria`: Permite ao usuário selecionar entre diferentes categorias e visualizar todos os produtos relacionados à categoria escolhida, facilitando a busca por produtos específicos dentro dessa categoria.
+
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
 
 ### Exibição de Modais
 
 -   `Detalhes do Produto`: Ao clicar em "Ver mais", um modal é aberto exibindo detalhes completos do produto, incluindo imagem, nome, descrição, preço, informações do vendedor, opções de cor e tamanho, e um botão "Adicionar à sacola".
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 -   `Notificação de Inscrição`: Após o cadastro na newsletter, um modal é exibido confirmando o sucesso da operação, incluindo um cabeçalho de confirmação e informações sobre as próximas novidades.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 -   `Controle de Modais`: Ambos os modais (produto e newsletter) possuem a funcionalidade de abrir ao clicar no item correspondente e fechar ao clicar no ícone de "X", proporcionando uma interação intuitiva.
+
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
 
 ### Validação de Formulários
 
 -   `Validação de Cadastro`: Durante o cadastro, o campo de e-mail é validado para garantir que não esteja vazio e que o formato seja correto. Se o e-mail for inválido, uma mensagem de erro é exibida para orientar o usuário na correção.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 ### Interface Responsiva
 
 -   `Layout Responsivo`: Adapta automaticamente o design da interface para se ajustar a diferentes tamanhos de tela, garantindo uma experiência consistente e otimizada em dispositivos móveis, tablets e desktops.
+
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
