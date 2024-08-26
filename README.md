@@ -152,3 +152,13 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Acesso à Localização`: Emprega o hook useLocation para acessar informações sobre a localização atual, como o pathname e o search, para personalizar a navegação.
 
+### Gerenciamento de Estado com Context API
+
+-   `Criação de Contexto`: Cria contextos com createContext para compartilhar dados e estados entre componentes sem a necessidade de prop drilling.
+
+-   `Provedor de Contexto`: Utiliza Context.Provider para fornecer o contexto criado a todos os componentes descendentes, garantindo acesso consistente aos dados.
+
+-   `Hooks de Contexto`: Implementa useContext para consumir e acessar os dados do contexto dentro dos componentes, facilitando o gerenciamento de estado global.
+
+-   `Definição de DisplayName`: Define um nome descritivo para o contexto com displayName, ajudando na identificação e depuração dos contextos criados.
+
