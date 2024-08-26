@@ -111,3 +111,19 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
         <br />
         <img src="" />
     </details>
+
+## :toolbox: Desenvolvimento e Implementação
+
+### Desenvolvimento com React
+
+-   `Componentes Funcionais e JSX`: Utiliza componentes funcionais e JSX para criar a interface do usuário de forma declarativa e modular. A combinação de componentes funcionais e JSX permite uma criação intuitiva e reutilizável da UI.
+
+-   `Hooks e Hooks Customizados`: Emprega hooks como useState, useEffect, e useNavigate para gerenciar estado e efeitos colaterais. Hooks customizados, como usePesquisarPorProdutos, são criados para encapsular lógicas específicas e reutilizáveis, promovendo a reusabilidade e organização do código.
+
+-   `Componentização`: Adota a criação de componentes independentes e reutilizáveis que encapsulam a lógica e a renderização, facilitando a manutenção e a escalabilidade da aplicação.
+
+-   `Renderização Condicional e Dinâmica`: Implementa renderização condicional e mapeamento de listas para exibir conteúdo de forma adaptativa com base em condições e dados externos, como listas de produtos e filtros dinâmicos.
+
+-   `Eventos`: Utiliza eventos como onClick, onSubmit, e outros para interagir com a interface do usuário e responder a ações, proporcionando uma experiência interativa e responsiva.
+
+-   `Operações Assíncronas`: Faz uso de .then para lidar com operações assíncronas, como requisições de dados e atualizações de estado, garantindo uma resposta eficiente e fluida da aplicação.
