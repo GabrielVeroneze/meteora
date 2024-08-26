@@ -198,3 +198,6 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Media Queries`: Aplica @media para definir estilos específicos com base no tamanho da tela, garantindo uma experiência de usuário consistente e otimizada em diferentes dispositivos.
 
+### Utilização de Pacotes
+
+-   `Json Server`: Usa json-server para simular uma API RESTful localmente durante o desenvolvimento, permitindo o teste de funcionalidades sem a necessidade de um backend real.
