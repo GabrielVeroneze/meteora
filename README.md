@@ -192,3 +192,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `CSS Modules`: Aplica CSS Modules para escopar estilos aos componentes específicos, evitando conflitos e garantindo uma abordagem modular na estilização.
 
+### Construção de Layout
+
+-   `Flexbox e CSS Grid`: Utiliza Flexbox e CSS Grid para criar layouts responsivos e dinâmicos, adaptando a interface da aplicação a diferentes tamanhos de tela e dispositivos.
+
+-   `Media Queries`: Aplica @media para definir estilos específicos com base no tamanho da tela, garantindo uma experiência de usuário consistente e otimizada em diferentes dispositivos.
+
