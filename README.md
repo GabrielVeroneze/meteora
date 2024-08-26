@@ -184,3 +184,11 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Instância Personalizada`: Cria uma instância personalizada do Axios com axios.create, configurando globalmente baseURL e headers, para simplificar a gestão das requisições.
 
+### Estilização com Sass
+
+-   `Estilização Modular com Sass`: Utiliza Sass para criar estilos modulares e reutilizáveis, aproveitando variáveis, mixins e funções para manter a consistência e a organização do CSS.
+
+-   `Variáveis e Mixins`: Define variáveis para cores, tipografia e espaçamentos, e mixins para criar regras de estilo reutilizáveis, facilitando a manutenção e a consistência dos estilos.
+
+-   `CSS Modules`: Aplica CSS Modules para escopar estilos aos componentes específicos, evitando conflitos e garantindo uma abordagem modular na estilização.
+
