@@ -178,3 +178,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Inferência de Tipos`: Usa z.infer para inferir automaticamente tipos a partir dos esquemas de validação, assegurando consistência entre dados e validações.
 
+### Comunicação com API via Axios
+
+-   `Requisições HTTP`: Utiliza Axios para realizar requisições HTTP (get) para interagir com APIs RESTful, facilitando a comunicação com o backend.
+
+-   `Instância Personalizada`: Cria uma instância personalizada do Axios com axios.create, configurando globalmente baseURL e headers, para simplificar a gestão das requisições.
+
