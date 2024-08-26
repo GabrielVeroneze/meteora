@@ -140,3 +140,15 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Inferência de Tipos`: Aproveita a inferência de tipos do TypeScript para deduzir tipos automaticamente, simplificando a definição e a legibilidade do código.
 
+### Roteamento com React Router
+
+-   `Configuração de Rotas`: Utiliza BrowserRouter, Routes, e Route para configurar e gerenciar rotas na aplicação, permitindo a navegação entre diferentes páginas e componentes.
+
+-   `Rotas Aninhadas`: Implementa rotas aninhadas para organizar a estrutura de navegação.
+
+-   `Navegação`: Usa os componentes Link e NavLink para facilitar a navegação entre páginas, oferecendo uma experiência de usuário fluida.
+
+-   `Navegação Programática`: Utiliza o hook useNavigate para realizar navegação programática, permitindo transições entre páginas com base em ações específicas.
+
+-   `Acesso à Localização`: Emprega o hook useLocation para acessar informações sobre a localização atual, como o pathname e o search, para personalizar a navegação.
+
