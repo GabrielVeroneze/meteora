@@ -170,3 +170,11 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Integração com Zod`: Usa zodResolver para integrar a validação de formulários com Zod, assegurando esquemas de validação robustos e personalizados.
 
+### Validação de Dados com Zod
+
+-   `Validações`: Utiliza z.object, z.string, z.min e z.email, para definir esquemas de validação robustos e personalizados, garantindo a integridade dos dados.
+
+-   `Mensagens de Erro`: Personaliza mensagens de erro com o atributo message em esquemas Zod, oferecendo feedback claro e útil aos usuários.
+
+-   `Inferência de Tipos`: Usa z.infer para inferir automaticamente tipos a partir dos esquemas de validação, assegurando consistência entre dados e validações.
+
