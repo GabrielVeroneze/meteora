@@ -127,3 +127,16 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 -   `Eventos`: Utiliza eventos como onClick, onSubmit, e outros para interagir com a interface do usuário e responder a ações, proporcionando uma experiência interativa e responsiva.
 
 -   `Operações Assíncronas`: Faz uso de .then para lidar com operações assíncronas, como requisições de dados e atualizações de estado, garantindo uma resposta eficiente e fluida da aplicação.
+
+### Tipagem com TypeScript
+
+-   `Definições de Tipos`: Define estruturas e tipos de dados com interfaces e type aliases, como Produto e Categoria, para garantir a integridade e segurança do código.
+
+-   `Interfaces Globais`: Utiliza interfaces globais para assegurar contratos de tipos consistentes em toda a aplicação, facilitando a integração e manutenção do código.
+
+-   `Basic Types`: Usa tipos básicos (string, number, boolean) para representar dados simples e assegurar a integridade dos dados em diferentes partes da aplicação.
+
+-   `Operadores de Tipo`: Aplica Optional Chaining ? e Non-null Assertion Operator ! para acessar propriedades de forma segura e evitar erros em dados opcionais.
+
+-   `Inferência de Tipos`: Aproveita a inferência de tipos do TypeScript para deduzir tipos automaticamente, simplificando a definição e a legibilidade do código.
+
