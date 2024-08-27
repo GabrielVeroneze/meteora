@@ -170,6 +170,8 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Localização e Busca`: Emprega o hook useLocation para acessar informações sobre a localização atual, como o search, para personalizar a navegação.
 
+-   `Parâmetros de Rotas`: Define parâmetros com :parameter, e utiliza o hook useParams para acessar o parâmetro na URL atual.
+
 ### Gerenciamento de Estado com Context API
 
 -   `Criação de Contexto`: Cria contextos com createContext para compartilhar dados e estados entre componentes sem a necessidade de prop drilling.
