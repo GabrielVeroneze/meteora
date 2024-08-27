@@ -174,11 +174,11 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Gerenciamento de Estado com Context API
 
--   `Criação de Contexto`: Cria contextos com createContext para compartilhar dados e estados entre componentes sem a necessidade de prop drilling.
+-   `Criação de Contexto`:  O createContext é usado para inicializar o contexto, estabelecendo um espaço compartilhado para dados que podem ser acessados por múltiplos componentes.
 
--   `Provedor de Contexto`: Utiliza Context.Provider para fornecer o contexto criado a todos os componentes descendentes, garantindo acesso consistente aos dados.
+-   `Provedor de Contexto`: Utiliza Context.Provider para envolver componentes que precisam acessar os dados do contexto, garantindo que as informações estejam disponíveis em toda a árvore de componentes.
 
--   `Hooks de Contexto`: Implementa useContext para consumir e acessar os dados do contexto dentro dos componentes, facilitando o gerenciamento de estado global.
+-   `Hooks de Contexto`: Implementa o hook useContext para consumir e acessar os dados do contexto dentro dos componentes, facilitando o gerenciamento de estado global.
 
 -   `Definição de DisplayName`: Define um nome descritivo para o contexto com displayName, ajudando na identificação e depuração dos contextos criados.
 
