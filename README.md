@@ -118,9 +118,10 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Componentes Funcionais e JSX`: Utiliza componentes funcionais e JSX para criar a interface de usuário de forma clara e organizada, aproveitando a sintaxe simples e intuitiva do React.
 
--   `Hooks e Hooks Customizados`: Emprega hooks como useState, useEffect, e useNavigate para gerenciar estado e efeitos colaterais. Hooks customizados, como usePesquisarPorProdutos, são criados para encapsular lógicas específicas e reutilizáveis, promovendo a reusabilidade e organização do código.
+-   `Hooks e Gerenciamento de Estado`: Emprega hooks como useState, useEffect e useRef para controlar o estado e os efeitos nos componentes, permitindo uma fácil gestão do comportamento dinâmico da aplicação.
 
 -   `Componentização`: Adota a criação de componentes independentes e reutilizáveis que encapsulam a lógica e a renderização, facilitando a manutenção e a escalabilidade da aplicação.
+-   `Hooks Customizados`: Cria hooks personalizados para reutilizar lógica comum entre componentes, facilitando a manutenção e o compartilhamento de funcionalidades.
 
 -   `Renderização`: Utiliza técnicas como renderização condicional e de listas para exibir elementos dinamicamente, adaptando a interface conforme o estado da aplicação.
 
