@@ -144,9 +144,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Interfaces Globais`: Utiliza interfaces globais para assegurar contratos de tipos consistentes em toda a aplicação, facilitando a integração e manutenção do código.
 
--   `Basic Types`: Usa tipos básicos (string, number, boolean) para representar dados simples e assegurar a integridade dos dados em diferentes partes da aplicação.
+-   `Tipagem Básica`: Usa tipos básicos como boolean, null, number, e string para representar dados simples, assegurando que as variáveis e funções sejam usadas com os tipos de dados corretos.
 
--   `Operadores de Tipo`: Aplica Optional Chaining ? e Non-null Assertion Operator ! para acessar propriedades de forma segura e evitar erros em dados opcionais.
+-   `Operadores de Tipo`: Aplica operadores como o operador de asserção não nula (!) e Optional Chaining (?) para evitar erros em dados opcionais e acessar propriedades de forma segura.
 
 -   `Inferência de Tipos`: Aproveita a inferência de tipos do TypeScript para deduzir tipos automaticamente, simplificando a definição e a legibilidade do código.
 
