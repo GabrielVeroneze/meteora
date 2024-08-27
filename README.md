@@ -164,11 +164,11 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Rotas Aninhadas`: Implementa rotas aninhadas para organizar a estrutura de navegação.
 
--   `Navegação`: Usa os componentes Link e NavLink para facilitar a navegação entre páginas, oferecendo uma experiência de usuário fluida.
+-   `Links e Navegação`: Usa os componentes Link e NavLink para facilitar a navegação entre páginas, oferecendo uma experiência de usuário fluida.
 
 -   `Navegação Programática`: Utiliza o hook useNavigate para realizar navegação programática, permitindo transições entre páginas com base em ações específicas.
 
--   `Acesso à Localização`: Emprega o hook useLocation para acessar informações sobre a localização atual, como o pathname e o search, para personalizar a navegação.
+-   `Localização e Busca`: Emprega o hook useLocation para acessar informações sobre a localização atual, como o search, para personalizar a navegação.
 
 ### Gerenciamento de Estado com Context API
 
