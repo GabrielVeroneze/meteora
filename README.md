@@ -120,12 +120,12 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Hooks e Gerenciamento de Estado`: Emprega hooks como useState, useEffect e useRef para controlar o estado e os efeitos nos componentes, permitindo uma fácil gestão do comportamento dinâmico da aplicação.
 
--   `Componentização`: Adota a criação de componentes independentes e reutilizáveis que encapsulam a lógica e a renderização, facilitando a manutenção e a escalabilidade da aplicação.
 -   `Hooks Customizados`: Cria hooks personalizados para reutilizar lógica comum entre componentes, facilitando a manutenção e o compartilhamento de funcionalidades.
+
+-   `Manipulação de Eventos`: Implementa eventos como onChange, onClick e onSubmit para capturar e reagir às ações do usuário, tornando a interface interativa e responsiva.
 
 -   `Renderização`: Utiliza técnicas como renderização condicional e de listas para exibir elementos dinamicamente, adaptando a interface conforme o estado da aplicação.
 
--   `Manipulação de Eventos`: Implementa eventos como onChange, onClick e onSubmit para capturar e reagir às ações do usuário, tornando a interface interativa e responsiva.
 -   `Referências e Manipulação de Elementos`: Usa ref para acessar e manipular diretamente elementos do DOM, como abrir e fechar modais de forma precisa.
 
 -   `Funções Utilitárias`: Desenvolve funções utilitárias para simplificar tarefas repetitivas e otimizar a lógica do código, promovendo a eficiência e a clareza.
@@ -134,6 +134,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Elementos e Tags`: Utiliza tags semânticas e específicas, como <dialog>, para organizar a interface e melhorar a acessibilidade da aplicação.
 
+-   `Componentização`: Adota a criação de componentes independentes e reutilizáveis que encapsulam a lógica e a renderização, facilitando a manutenção e a escalabilidade da aplicação.
 
 -   `Operações Assíncronas`: Faz uso de .then para lidar com operações assíncronas, como requisições de dados e atualizações de estado, garantindo uma resposta eficiente e fluida da aplicação.
 
