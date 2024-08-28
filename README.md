@@ -228,7 +228,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Construção de Layout
 
--   `Flexbox e CSS Grid`: Utiliza Flexbox e CSS Grid para criar layouts responsivos e dinâmicos, adaptando a interface da aplicação a diferentes tamanhos de tela e dispositivos.
+-   `Flexbox`: Utiliza Flexbox que facilita a criação de layouts flexíveis e responsivos. Utilizando propriedades como flex, flex-direction e flex-wrap.
+
+-   `Grid Layout`: Utiliza o Grid Layout para a criação de layouts complexos com mais controle sobre linhas e colunas. Com propriedades como grid, grid-template-columns, grid-template-rows, grid-column e grid-row.
 
 -   `Media Queries`: Aplica @media para definir estilos específicos com base no tamanho da tela, garantindo uma experiência de usuário consistente e otimizada em diferentes dispositivos.
 
