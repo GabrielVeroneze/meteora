@@ -241,3 +241,5 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 ### Utilização de Pacotes
 
 -   `Json Server`: Usa json-server para simular uma API RESTful localmente durante o desenvolvimento, permitindo o teste de funcionalidades sem a necessidade de um backend real.
+
+-   `Swiper`: Usa o swiper para criar carrosséis de slides e galerias de imagens. Utiliza recursos como navegação por setas, paginação e autoplay, para a criação de apresentações visuais interativas e envolventes.
