@@ -186,7 +186,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Manipulação de Formulários`: Utiliza useForm, handleSubmit, e register para gerenciar a interação e o estado dos formulários, facilitando o controle e a validação dos dados.
 
--   `Validação com formState`: Usa formState para gerenciar e exibir erros de validação, garantindo que os dados inseridos nos formulários estejam corretos.
+-   `Validação com formState`: Usa formState para acessar e exibir erros de validação, garantindo que os dados inseridos nos formulários estejam corretos.
 
 -   `Integração com Zod`: Usa zodResolver para integrar a validação de formulários com Zod, assegurando esquemas de validação robustos e personalizados.
 
