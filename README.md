@@ -234,6 +234,10 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Media Queries`: Aplica @media para definir estilos específicos com base no tamanho da tela, garantindo uma experiência de usuário consistente e otimizada em diferentes dispositivos.
 
+-   `Alinhamento e Posicionamento`: Para alinhar e posicionar itens dentro de contêineres, é utilizado várias propriedades, como align-items, align-self, justify-content, justify-self, place-content e place-self.
+
+-   `Espaçamento`: Define o espaçamento entre itens em layouts Grid e Flexbox utilizando propriedades como gap e column-gap.
+
 ### Utilização de Pacotes
 
 -   `Json Server`: Usa json-server para simular uma API RESTful localmente durante o desenvolvimento, permitindo o teste de funcionalidades sem a necessidade de um backend real.
