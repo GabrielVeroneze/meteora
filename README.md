@@ -174,7 +174,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Gerenciamento de Estado com Context API
 
--   `Criação de Contexto`:  O createContext é usado para inicializar o contexto, estabelecendo um espaço compartilhado para dados que podem ser acessados por múltiplos componentes.
+-   `Criação de Contexto`: O createContext é usado para inicializar o contexto, estabelecendo um espaço compartilhado para dados que podem ser acessados por múltiplos componentes.
 
 -   `Provedor de Contexto`: Utiliza Context.Provider para envolver componentes que precisam acessar os dados do contexto, garantindo que as informações estejam disponíveis em toda a árvore de componentes.
 
@@ -202,7 +202,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Requisições HTTP`: Utiliza Axios para realizar requisições HTTP (get) para interagir com APIs RESTful, facilitando a comunicação com o backend.
 
--   `Instância Personalizada`: Cria uma instância personalizada do Axios com axios.create, configurando globalmente baseURL e headers, para simplificar a gestão das requisições.
+-   `Configuração da Instância`: Cria uma instância personalizada do Axios com axios.create, configurando globalmente baseURL e headers, para simplificar a gestão das requisições.
 
 ### Estilização com Sass
 
