@@ -192,7 +192,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Validação de Dados com Zod
 
--   `Validações`: Utiliza z.object, z.string, z.min e z.email, para definir esquemas de validação robustos e personalizados, garantindo a integridade dos dados.
+-   `Definição de Esquemas`: Utiliza z.object, z.string, z.min e z.email, para definir esquemas de validação robustos e personalizados, garantindo a integridade dos dados.
 
 -   `Mensagens de Erro`: Personaliza mensagens de erro com o atributo message em esquemas Zod, oferecendo feedback claro e útil aos usuários.
 
