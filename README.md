@@ -204,6 +204,10 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Configuração da Instância`: Cria uma instância personalizada do Axios com axios.create, configurando globalmente baseURL e headers, para simplificar a gestão das requisições.
 
+-   `Cabeçalhos HTTP`: Utiliza cabeçalhos como Accept para indicar o tipo de conteúdo esperado na resposta e Content-Type para especificar o formato dos dados enviados.
+
+-   `Parâmetros de Requisição`: Utiliza a propriedade params para adicionar parâmetros à URL da requisição, facilitando a comunicação com APIs e o envio de dados dinâmicos em cada requisição.
+
 ### Estilização com Sass
 
 -   `Estilização Modular com Sass`: Utiliza Sass para criar estilos modulares e reutilizáveis, aproveitando variáveis, mixins e funções para manter a consistência e a organização do CSS.
