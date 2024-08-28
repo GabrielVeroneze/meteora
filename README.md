@@ -218,6 +218,14 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `CSS Modules`: Aplica CSS Modules para escopar estilos aos componentes específicos, evitando conflitos e garantindo uma abordagem modular na estilização.
 
+-   `Funções`: Cria funções personalizadas com @function, que retornam valores calculados, e utiliza @return dentro dessas funções.
+
+-   `Modularização e Extensão`: Utiliza @use para importar módulos e usar seus estilos de forma encapsulada. E usa o @extend para compartilhar regras CSS entre seletores, evitando a repetição de código.
+
+-   `Estruturas Condicionais`: Usa @if e @else if, para aplicar estilos baseados em condições específicas.
+
+-   `Seletores e Escopo`: Inclui o seletor &, que faz referência ao seletor pai. O placeholder selector (%) que é utilizado para criar seletores que não geram CSS diretamente, mas que podem ser estendidos. Além disso, o :global que garante que os estilos sejam aplicados de forma global.
+
 ### Construção de Layout
 
 -   `Flexbox e CSS Grid`: Utiliza Flexbox e CSS Grid para criar layouts responsivos e dinâmicos, adaptando a interface da aplicação a diferentes tamanhos de tela e dispositivos.
