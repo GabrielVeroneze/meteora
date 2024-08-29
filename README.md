@@ -116,17 +116,17 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Desenvolvimento com React
 
--   `Componentes Funcionais e JSX`: Utiliza componentes funcionais e JSX para criar a interface de usuário de forma clara e organizada, aproveitando a sintaxe simples e intuitiva do React.
+-   `Componentes Funcionais e JSX`: Usa componentes funcionais e JSX para montar a interface, mantendo o código organizado e fácil de entender com a sintaxe do React.
 
--   `Hooks e Hooks Customizados`: Emprega hooks como useState, useEffect e useRef para a gestão do comportamento dinâmico da aplicação. Também cria hooks customizados para reutilizar lógica comum entre componentes.
+-   `Hooks e Hooks Customizados`: Utiliza hooks como `useState`, `useEffect` e `useRef` para gerenciar estados e efeitos, e cria hooks customizados para reaproveitar lógica em diferentes partes da aplicação.
 
--   `Renderização`: Utiliza técnicas como renderização condicional e de listas para exibir elementos dinamicamente, adaptando a interface conforme o estado da aplicação.
+-   `Renderização`: Aplica renderização condicional e de listas para mostrar elementos conforme o estado atual da aplicação, tornando a interface mais dinâmica.
 
--   `Manipulação de Eventos`: Implementa eventos como onChange, onClick e onSubmit para capturar e reagir às ações do usuário, tornando a interface interativa e responsiva.
+-   `Manipulação de Eventos`: Integra eventos como `onChange`, `onClick` e `onSubmit` para captar interações dos usuários, deixando a aplicação mais interativa.
 
--   `Referências e Manipulação de Elementos`: Usa ref para acessar e manipular diretamente elementos do DOM, como abrir e fechar modais de forma precisa.
+-   `Referências e Manipulação de Elementos`: Usa `ref` para manipular diretamente elementos do DOM, como abrir e fechar modais, garantindo um controle preciso sobre a interface.
 
--   `Manipulação de URL e Query Params`: Manipula URLs e parâmetros de consulta com ferramentas como new URLSearchParams() para extrair e usar informações da URL, personalizando a experiência do usuário.
+-   `Manipulação de URL e Query Params`: Trabalha com URLs e parâmetros de consulta usando `URLSearchParams`, permitindo ajustar a experiência do usuário com base nas informações da URL.
 
 ### Tipagem com TypeScript
 
