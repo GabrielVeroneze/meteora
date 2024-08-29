@@ -126,15 +126,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Referências e Manipulação de Elementos`: Usa ref para acessar e manipular diretamente elementos do DOM, como abrir e fechar modais de forma precisa.
 
--   `Funções Utilitárias`: Desenvolve funções utilitárias para simplificar tarefas repetitivas e otimizar a lógica do código, promovendo a eficiência e a clareza.
-
 -   `Manipulação de URL e Query Params`: Manipula URLs e parâmetros de consulta com ferramentas como new URLSearchParams() para extrair e usar informações da URL, personalizando a experiência do usuário.
-
--   `Elementos e Tags`: Utiliza tags semânticas e específicas, como <dialog>, para organizar a interface e melhorar a acessibilidade da aplicação.
-
--   `Componentização`: Adota a criação de componentes independentes e reutilizáveis que encapsulam a lógica e a renderização, facilitando a manutenção e a escalabilidade da aplicação.
-
--   `Operações Assíncronas`: Faz uso de .then para lidar com operações assíncronas, como requisições de dados e atualizações de estado, garantindo uma resposta eficiente e fluida da aplicação.
 
 ### Tipagem com TypeScript
 
