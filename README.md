@@ -168,11 +168,11 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Manipulação de Formulários com React Hook Form
 
--   `Manipulação de Formulários`: Utiliza useForm, handleSubmit, e register para gerenciar a interação e o estado dos formulários, facilitando o controle e a validação dos dados.
+-   `Manipulação de Formulários`: Usa `useForm`, `handleSubmit` e `register` para controlar e gerenciar formulários, tornando mais fácil lidar com a entrada e validação dos dados.
 
--   `Validação com formState`: Usa formState para acessar e exibir erros de validação, garantindo que os dados inseridos nos formulários estejam corretos.
+-   `Validação com formState`: Usa `formState` para acessar e mostrar erros de validação, garantindo que os dados nos formulários estejam corretos.
 
--   `Integração com Zod`: Usa zodResolver para integrar a validação de formulários com Zod, assegurando esquemas de validação robustos e personalizados.
+-   `Integração com Zod`: Usa `zodResolver` para conectar a validação de formulários com o Zod, oferecendo esquemas de validação mais avançados e personalizados.
 
 ### Validação de Dados com Zod
 
