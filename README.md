@@ -144,17 +144,17 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Roteamento com React Router
 
--   `Configuração de Rotas`: Utiliza BrowserRouter, Routes, e Route para configurar e gerenciar rotas na aplicação, permitindo a navegação entre diferentes páginas e componentes.
+-   `Configuração de Rotas`: Configura rotas na aplicação com `BrowserRouter`, `Routes` e `Route`, permitindo a navegação entre diferentes páginas e componentes.
 
--   `Rotas Aninhadas`: Implementa rotas aninhadas para organizar a estrutura de navegação.
+-   `Rotas Aninhadas`: Implementa rotas aninhadas para estruturar a navegação de maneira hierárquica e organizada.
 
--   `Parâmetros de Rotas`: Define parâmetros com :parameter, e utiliza o hook useParams para acessar o parâmetro na URL atual.
+-   `Parâmetros de Rotas`: Define parâmetros de URL com `:parameter` e utiliza o hook `useParams` para acessar e manipular esses parâmetros.
 
--   `Links e Navegação`: Usa os componentes Link e NavLink para facilitar a navegação entre páginas, oferecendo uma experiência de usuário fluida.
+-   `Links e Navegação`: Utiliza os componentes `Link` e `NavLink` para criar uma navegação suave e intuitiva entre as páginas.
 
--   `Navegação Programática`: Utiliza o hook useNavigate para realizar navegação programática, permitindo transições entre páginas com base em ações específicas.
+-   `Navegação Programática`: Usa o hook `useNavigate` para realizar navegação programática, permitindo redirecionar o usuário com base em ações específicas.
 
--   `Localização e Busca`: Emprega o hook useLocation para acessar informações sobre a localização atual, como o search, para personalizar a navegação.
+-   `Localização e Busca`: Usa o hook `useLocation` para obter informações sobre a URL atual, como parâmetros de busca, e ajustar a navegação conforme necessário.
 
 ### Gerenciamento de Estado com Context API
 
