@@ -184,13 +184,13 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Comunicação com API via Axios
 
--   `Requisições HTTP`: Utiliza Axios para realizar requisições HTTP (get) para interagir com APIs RESTful, facilitando a comunicação com o backend.
+-   `Requisições HTTP`: Usa o Axios para fazer requisições HTTP (GET) e se comunicar com APIs, facilitando a troca de dados com backend.
 
--   `Configuração da Instância`: Cria uma instância personalizada do Axios com axios.create, configurando globalmente baseURL e headers, para simplificar a gestão das requisições.
+-   `Configuração da Instância`: Cria uma instância personalizada do Axios com `axios.create`, configurando `baseURL` e `headers` para padronizar e simplificar as requisições.
 
--   `Parâmetros de Requisição`: Utiliza a propriedade params para adicionar parâmetros à URL da requisição, facilitando a comunicação com APIs e o envio de dados dinâmicos em cada requisição.
+-   `Parâmetros de Requisição`: Usa a propriedade `params` para adicionar parâmetros na URL das requisições, permitindo enviar dados dinâmicos para as APIs.
 
--   `Cabeçalhos HTTP`: Utiliza cabeçalhos como Accept para indicar o tipo de conteúdo esperado na resposta e Content-Type para especificar o formato dos dados enviados.
+-   `Cabeçalhos HTTP`: Configura os cabeçalhos `Accept` e `Content-Type` para garantir que o servidor entenda o tipo de conteúdo esperado e o formato dos dados enviados.
 
 ### Estilização com Sass
 
