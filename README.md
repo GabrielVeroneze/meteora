@@ -176,11 +176,11 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Validação de Dados com Zod
 
--   `Definição de Esquemas`: Utiliza z.object, z.string, z.min e z.email, para definir esquemas de validação robustos e personalizados, garantindo a integridade dos dados.
+-   `Definição de Esquemas`: Usa `z.object`, `z.string`, `z.min` e `z.email` para criar esquemas de validação personalizados e garantir que os dados sigam os critérios estabelecidos.
 
--   `Mensagens de Erro`: Personaliza mensagens de erro com o atributo message em esquemas Zod, oferecendo feedback claro e útil aos usuários.
+-   `Mensagens de Erro`: Personaliza as mensagens de erro com o atributo `message` nos esquemas, oferecendo um feedback claro para ajudar os usuários a corrigirem os dados.
 
--   `Inferência de Tipos`: Usa z.infer para inferir automaticamente tipos a partir dos esquemas de validação, assegurando consistência entre dados e validações.
+-   `Inferência de Tipos`: Usa `z.infer` para definir tipos automaticamente a partir dos esquemas de validação, garantindo a consistência dos tipos de dados com os esquemas.
 
 ### Comunicação com API via Axios
 
