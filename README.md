@@ -120,9 +120,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Hooks e Hooks Customizados`: Emprega hooks como useState, useEffect e useRef para a gestão do comportamento dinâmico da aplicação. Também cria hooks customizados para reutilizar lógica comum entre componentes.
 
--   `Manipulação de Eventos`: Implementa eventos como onChange, onClick e onSubmit para capturar e reagir às ações do usuário, tornando a interface interativa e responsiva.
-
 -   `Renderização`: Utiliza técnicas como renderização condicional e de listas para exibir elementos dinamicamente, adaptando a interface conforme o estado da aplicação.
+
+-   `Manipulação de Eventos`: Implementa eventos como onChange, onClick e onSubmit para capturar e reagir às ações do usuário, tornando a interface interativa e responsiva.
 
 -   `Referências e Manipulação de Elementos`: Usa ref para acessar e manipular diretamente elementos do DOM, como abrir e fechar modais de forma precisa.
 
@@ -134,13 +134,13 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Tipagem Básica`: Usa tipos básicos como boolean, null, number, e string para representar dados simples, assegurando que as variáveis e funções sejam usadas com os tipos de dados corretos.
 
--   `Operadores de Tipo`: Aplica operadores como o operador de asserção não nula (!) e Optional Chaining (?) para evitar erros em dados opcionais e acessar propriedades de forma segura.
-
 -   `Tipos de Objetos e Arrays`: Utiliza tipos de objetos e arrays para estruturar dados complexos. Tipos de objetos permitem definir a forma de objetos, enquanto tipos de arrays garantem que as coleções de dados sejam manipuladas corretamente.
 
--   `Herança e Extensões`: Utiliza o conceito de herança com extends para criar tipos derivados e estender funcionalidades, permitindo a criação de tipos mais complexos e a reutilização de estruturas existentes.
-
 -   `Parâmetros Opcionais e Tipos de União`: Utiliza parâmetros opcionais e tipos de união, para parâmetros que podem ou não ser fornecido e controlar e manipular tipos de dados de maneira mais flexível.
+
+-   `Operadores de Tipo`: Aplica operadores como o operador de asserção não nula (!) e Optional Chaining (?) para evitar erros em dados opcionais e acessar propriedades de forma segura.
+
+-   `Herança e Extensões`: Utiliza o conceito de herança com extends para criar tipos derivados e estender funcionalidades, permitindo a criação de tipos mais complexos e a reutilização de estruturas existentes.
 
 ### Roteamento com React Router
 
@@ -148,13 +148,13 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Rotas Aninhadas`: Implementa rotas aninhadas para organizar a estrutura de navegação.
 
+-   `Parâmetros de Rotas`: Define parâmetros com :parameter, e utiliza o hook useParams para acessar o parâmetro na URL atual.
+
 -   `Links e Navegação`: Usa os componentes Link e NavLink para facilitar a navegação entre páginas, oferecendo uma experiência de usuário fluida.
 
 -   `Navegação Programática`: Utiliza o hook useNavigate para realizar navegação programática, permitindo transições entre páginas com base em ações específicas.
 
 -   `Localização e Busca`: Emprega o hook useLocation para acessar informações sobre a localização atual, como o search, para personalizar a navegação.
-
--   `Parâmetros de Rotas`: Define parâmetros com :parameter, e utiliza o hook useParams para acessar o parâmetro na URL atual.
 
 ### Gerenciamento de Estado com Context API
 
@@ -188,9 +188,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Configuração da Instância`: Cria uma instância personalizada do Axios com axios.create, configurando globalmente baseURL e headers, para simplificar a gestão das requisições.
 
--   `Cabeçalhos HTTP`: Utiliza cabeçalhos como Accept para indicar o tipo de conteúdo esperado na resposta e Content-Type para especificar o formato dos dados enviados.
-
 -   `Parâmetros de Requisição`: Utiliza a propriedade params para adicionar parâmetros à URL da requisição, facilitando a comunicação com APIs e o envio de dados dinâmicos em cada requisição.
+
+-   `Cabeçalhos HTTP`: Utiliza cabeçalhos como Accept para indicar o tipo de conteúdo esperado na resposta e Content-Type para especificar o formato dos dados enviados.
 
 ### Estilização com Sass
 
@@ -208,18 +208,18 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Construção de Layout
 
--   `Flexbox`: Utiliza Flexbox que facilita a criação de layouts flexíveis e responsivos. Utilizando propriedades como flex, flex-direction e flex-wrap.
-
 -   `Grid Layout`: Utiliza o Grid Layout para a criação de layouts complexos com mais controle sobre linhas e colunas. Com propriedades como grid, grid-template-columns, grid-template-rows, grid-column e grid-row.
 
--   `Media Queries`: Aplica @media para definir estilos específicos com base no tamanho da tela, garantindo uma experiência de usuário consistente e otimizada em diferentes dispositivos.
+-   `Flexbox`: Utiliza Flexbox que facilita a criação de layouts flexíveis e responsivos. Utilizando propriedades como flex, flex-direction e flex-wrap.
 
 -   `Alinhamento e Posicionamento`: Para alinhar e posicionar itens dentro de contêineres, é utilizado várias propriedades, como align-items, align-self, justify-content, justify-self, place-content e place-self.
 
 -   `Espaçamento`: Define o espaçamento entre itens em layouts Grid e Flexbox utilizando propriedades como gap e column-gap.
 
+-   `Media Queries`: Aplica @media para definir estilos específicos com base no tamanho da tela, garantindo uma experiência de usuário consistente e otimizada em diferentes dispositivos.
+
 ### Utilização de Pacotes
 
--   `Json Server`: Usa json-server para simular uma API RESTful localmente durante o desenvolvimento, permitindo o teste de funcionalidades sem a necessidade de um backend real.
-
 -   `Swiper`: Usa o swiper para criar carrosséis de slides e galerias de imagens. Utiliza recursos como navegação por setas, paginação e autoplay, para a criação de apresentações visuais interativas e envolventes.
+
+-   `Json Server`: Usa json-server para simular uma API RESTful localmente durante o desenvolvimento, permitindo o teste de funcionalidades sem a necessidade de um backend real.
