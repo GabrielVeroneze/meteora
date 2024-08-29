@@ -130,17 +130,17 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Tipagem com TypeScript
 
--   `Definições de Tipos`: Define estruturas e tipos de dados com interfaces e type aliases, como Produto e Categoria, para garantir a integridade e segurança do código.
+-   `Definições de Tipos`: Usa interfaces e aliases de tipo, como `Produto` e `Categoria`, para definir como os dados devem ser estruturados e garantir que o código esteja correto.
 
--   `Tipagem Básica`: Usa tipos básicos como boolean, null, number, e string para representar dados simples, assegurando que as variáveis e funções sejam usadas com os tipos de dados corretos.
+-   `Tipagem Básica`: Usa tipos simples como `boolean`, `null`, `number` e `string` para garantir que variáveis e funções recebam os tipos de dados certos.
 
--   `Tipos de Objetos e Arrays`: Utiliza tipos de objetos e arrays para estruturar dados complexos. Tipos de objetos permitem definir a forma de objetos, enquanto tipos de arrays garantem que as coleções de dados sejam manipuladas corretamente.
+-   `Tipos de Objetos e Arrays`: Define a estrutura de dados mais complexos com tipos de objetos e arrays, para garantir que eles sejam manipulados corretamente.
 
--   `Parâmetros Opcionais e Tipos de União`: Utiliza parâmetros opcionais e tipos de união, para parâmetros que podem ou não ser fornecido e controlar e manipular tipos de dados de maneira mais flexível.
+-   `Parâmetros Opcionais e Tipos de União`: Usa parâmetros opcionais e tipos de união para lidar com dados que podem ou não existir, oferecendo mais flexibilidade na manipulação dos tipos.
 
--   `Operadores de Tipo`: Aplica operadores como o operador de asserção não nula (!) e Optional Chaining (?) para evitar erros em dados opcionais e acessar propriedades de forma segura.
+-   `Operadores de Tipo`: Usa operadores como a asserção não nula (`!`) e o encadeamento opcional (`?.`) para acessar propriedades de dados que podem não existir, evitando erros.
 
--   `Herança e Extensões`: Utiliza o conceito de herança com extends para criar tipos derivados e estender funcionalidades, permitindo a criação de tipos mais complexos e a reutilização de estruturas existentes.
+-   `Herança e Extensões`: Usa herança com `extends` para criar novos tipos baseados em tipos existentes, permitindo reutilizar e adicionar funcionalidades de forma mais eficiente.
 
 ### Roteamento com React Router
 
