@@ -194,13 +194,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Estilização com Sass
 
--   `Estilização Modular com Sass`: Utiliza Sass para criar estilos modulares e reutilizáveis, aproveitando variáveis, mixins e funções para manter a consistência e a organização do CSS.
-
 -   `Variáveis`: Define variáveis para a criação de valores reutilizáveis como cores, espaçamentos, fontes e outros estilos, facilitando a manutenção e a consistência do design.
 
 -   `Mixins`: Cria blocos reutilizáveis de estilos com @mixin, esses blocos são inclusos em outros estilos com @include. Também, utiliza @content para a inserção de conteúdo dinâmico em mixins.
-
--   `CSS Modules`: Aplica CSS Modules para escopar estilos aos componentes específicos, evitando conflitos e garantindo uma abordagem modular na estilização.
 
 -   `Funções`: Cria funções personalizadas com @function, que retornam valores calculados, e utiliza @return dentro dessas funções.
 
