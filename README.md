@@ -194,17 +194,17 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Estilização com Sass
 
--   `Variáveis`: Define variáveis para a criação de valores reutilizáveis como cores, espaçamentos, fontes e outros estilos, facilitando a manutenção e a consistência do design.
+-   `Variáveis`: Define variáveis para guardar valores como cores, espaçamentos e fontes, ajudando a manter o design consistente e mais fácil de ajustar.
 
--   `Mixins`: Cria blocos reutilizáveis de estilos com @mixin, esses blocos são inclusos em outros estilos com @include. Também, utiliza @content para a inserção de conteúdo dinâmico em mixins.
+-   `Mixins`: Cria blocos de estilos reutilizáveis com `@mixin` e usa `@include` para aplicá-los a outros estilos, além de usar `@content` para adicionar conteúdo dinâmico dentro dos mixins.
 
--   `Funções`: Cria funções personalizadas com @function, que retornam valores calculados, e utiliza @return dentro dessas funções.
+-   `Funções`: Desenvolve funções personalizadas com `@function` para calcular e retornar valores, utilizando `@return` para devolver o resultado.
 
--   `Modularização e Extensão`: Utiliza @use para importar módulos e usar seus estilos de forma encapsulada. E usa o @extend para compartilhar regras CSS entre seletores, evitando a repetição de código.
+-   `Modularização e Extensão`: Utiliza `@use` para importar módulos e organizar estilos, e `@extend` para compartilhar regras CSS entre seletores, evitando repetição de código.
 
--   `Estruturas Condicionais`: Usa @if e @else if, para aplicar estilos baseados em condições específicas.
+-   `Estruturas Condicionais`: Aplica estilos baseados em condições específicas utilizando `@if` e `@else if`, ajustando a aparência conforme os critérios definidos.
 
--   `Seletores e Escopo`: Inclui o seletor &, que faz referência ao seletor pai. O placeholder selector (%) que é utilizado para criar seletores que não geram CSS diretamente, mas que podem ser estendidos. Além disso, o :global que garante que os estilos sejam aplicados de forma global.
+-   `Seletores e Escopo`: Utiliza o seletor `&` para fazer referência ao pai, o seletor placeholder `%` para criar seletores extensíveis sem gerar CSS direto, e `:global` para aplicar estilos globalmente.
 
 ### Construção de Layout
 
