@@ -158,13 +158,13 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Gerenciamento de Estado com Context API
 
--   `Criação de Contexto`: O createContext é usado para inicializar o contexto, estabelecendo um espaço compartilhado para dados que podem ser acessados por múltiplos componentes.
+-   `Criação de Contexto`: Utiliza `createContext` para criar um contexto compartilhado, permitindo que dados sejam acessados por diversos componentes na aplicação.
 
--   `Provedor de Contexto`: Utiliza Context.Provider para envolver componentes que precisam acessar os dados do contexto, garantindo que as informações estejam disponíveis em toda a árvore de componentes.
+-   `Provedor de Contexto`: Utiliza `Context.Provider` para envolver componentes e garantir que todos os filhos tenham acesso aos dados do contexto.
 
--   `Hooks de Contexto`: Implementa o hook useContext para consumir e acessar os dados do contexto dentro dos componentes, facilitando o gerenciamento de estado global.
+-   `Hooks de Contexto`: Usa o hook `useContext` para acessar e consumir dados do contexto dentro dos componentes, simplificando o gerenciamento de estado global.
 
--   `Definição de DisplayName`: Define um nome descritivo para o contexto com displayName, ajudando na identificação e depuração dos contextos criados.
+-   `Definição de DisplayName`: Atribui um nome descritivo ao contexto com `displayName`, facilitando a identificação e a depuração durante o desenvolvimento.
 
 ### Manipulação de Formulários com React Hook Form
 
