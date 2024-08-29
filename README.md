@@ -132,21 +132,15 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Definições de Tipos`: Define estruturas e tipos de dados com interfaces e type aliases, como Produto e Categoria, para garantir a integridade e segurança do código.
 
--   `Interfaces Globais`: Utiliza interfaces globais para assegurar contratos de tipos consistentes em toda a aplicação, facilitando a integração e manutenção do código.
-
 -   `Tipagem Básica`: Usa tipos básicos como boolean, null, number, e string para representar dados simples, assegurando que as variáveis e funções sejam usadas com os tipos de dados corretos.
 
 -   `Operadores de Tipo`: Aplica operadores como o operador de asserção não nula (!) e Optional Chaining (?) para evitar erros em dados opcionais e acessar propriedades de forma segura.
-
--   `Inferência de Tipos`: Aproveita a inferência de tipos do TypeScript para deduzir tipos automaticamente, simplificando a definição e a legibilidade do código.
 
 -   `Tipos de Objetos e Arrays`: Utiliza tipos de objetos e arrays para estruturar dados complexos. Tipos de objetos permitem definir a forma de objetos, enquanto tipos de arrays garantem que as coleções de dados sejam manipuladas corretamente.
 
 -   `Herança e Extensões`: Utiliza o conceito de herança com extends para criar tipos derivados e estender funcionalidades, permitindo a criação de tipos mais complexos e a reutilização de estruturas existentes.
 
 -   `Parâmetros Opcionais e Tipos de União`: Utiliza parâmetros opcionais e tipos de união, para parâmetros que podem ou não ser fornecido e controlar e manipular tipos de dados de maneira mais flexível.
-
--   `Assinaturas e Expressões`: Define assinaturas de índice para tornar os tipos mais flexíveis e expressivos, permitindo a definição de objetos com chaves dinâmicas. Expressões de tipos de função ajudam a definir e restringir a assinatura de funções.
 
 ### Roteamento com React Router
 
