@@ -223,3 +223,9 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 -   `Swiper`: Usa Swiper para criar carrosséis de slides e galerias de imagens, com funções como navegação por setas, paginação e autoplay, tornando as apresentações mais dinâmicas e interativas.
 
 -   `Json Server`: Usa Json Server para simular uma API RESTful localmente, permitindo testar e desenvolver funcionalidades rapidamente, sem precisar de um backend real.
+
+## :computer: Ferramentas Utilizadas
+
+| React | TypeScript | Sass | React Router | Axios | React Hook Form | Zod | Vite | 
+| :---: | :--------: | :--: | :----------: | :---: | :-------------: | :-: | :--: |
+<img height="65px" src=""> | <img height="65px" src=""> | <img height="55px" src=""> | <img height="50px" src=""> | <img height="65px" src=""> | <img height="65px" src=""> | <img height="65px" src=""> | <img height="65px" src="">
