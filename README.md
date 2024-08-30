@@ -208,15 +208,15 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Construção de Layout
 
--   `Grid Layout`: Utiliza o Grid Layout para a criação de layouts complexos com mais controle sobre linhas e colunas. Com propriedades como grid, grid-template-columns, grid-template-rows, grid-column e grid-row.
+-   `Grid Layout`: Usa Grid Layout para criar layouts complexos, controlando linhas e colunas com propriedades como `grid-template-columns`, `grid-template-rows`, `grid-column` e `grid-row`.
 
--   `Flexbox`: Utiliza Flexbox que facilita a criação de layouts flexíveis e responsivos. Utilizando propriedades como flex, flex-direction e flex-wrap.
+-   `Flexbox`: Usa Flexbox para criar layouts flexíveis e responsivos, ajustando a distribuição e o comportamento dos elementos com propriedades como `flex`, `flex-direction`, e `flex-wrap`.
 
--   `Alinhamento e Posicionamento`: Para alinhar e posicionar itens dentro de contêineres, é utilizado várias propriedades, como align-items, align-self, justify-content, justify-self, place-content e place-self.
+-   `Alinhamento e Posicionamento`: Alinha e posiciona itens dentro de contêineres usando propriedades como `align-items`, `align-self`, `justify-content`, `justify-self`, `place-content` e `place-self`.
 
--   `Espaçamento`: Define o espaçamento entre itens em layouts Grid e Flexbox utilizando propriedades como gap e column-gap.
+-   `Espaçamento`: Define o espaçamento entre itens em layouts Grid e Flexbox com propriedades como `gap` e `column-gap`, garantindo que os elementos fiquem bem distribuídos.
 
--   `Media Queries`: Aplica @media para definir estilos específicos com base no tamanho da tela, garantindo uma experiência de usuário consistente e otimizada em diferentes dispositivos.
+-   `Media Queries`: Usa `@media` para aplicar estilos específicos dependendo do tamanho da tela, garantindo uma boa experiência em diferentes dispositivos.
 
 ### Utilização de Pacotes
 
