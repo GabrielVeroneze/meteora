@@ -229,3 +229,15 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 | React | TypeScript | Sass | React Router | Axios | React Hook Form | Zod | Vite | 
 | :---: | :--------: | :--: | :----------: | :---: | :-------------: | :-: | :--: |
 <img height="65px" src="https://github.com/user-attachments/assets/81663c62-99c8-4e60-9099-f60a6ca8c01d"> | <img height="65px" src="https://github.com/user-attachments/assets/81a3adda-b1e0-46ab-ac6d-19cc596a2302"> | <img height="55px" src="https://github.com/user-attachments/assets/e3afa6d2-d1ff-4514-be2e-7852b91502be"> | <img height="50px" src="https://github.com/user-attachments/assets/daaa49e3-f06c-4ca7-a924-da3f95c448bb"> | <img height="65px" src="https://github.com/user-attachments/assets/31076e79-3359-4f4c-b486-4346c9a1aa0b"> | <img height="65px" src="https://github.com/user-attachments/assets/3bd7f73c-900a-4044-b141-e4e41a71ea4f"> | <img height="65px" src="https://github.com/user-attachments/assets/ec06087e-cf52-4a3d-9389-9580574a1046"> | <img height="65px" src="https://github.com/user-attachments/assets/8917d6d9-9506-4edb-9631-e16b161af8d4">
+
+## :open_file_folder: Acesso ao Projeto
+
+Você pode baixar o projeto diretamente:
+
+[Baixar código fonte](https://github.com/GabrielVeroneze/meteora/archive/refs/heads/main.zip)
+
+Também é possível clonar o repositório usando o seguinte comando:
+
+```
+git clone https://github.com/GabrielVeroneze/meteora.git
+```
