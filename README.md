@@ -279,3 +279,8 @@ Para configurar e executar este projeto localmente, você precisará seguir esta
     ```
 
     Você receberá uma mensagem com a URL de execução da aplicação, geralmente em http://localhost:5173.
+
+## :trophy: Sobre o Challenge
+
+A 7ª Edição do Challenge Front-End proporciona uma experiência prática e desafiadora, permitindo que os participantes apliquem seus conhecimentos em um projeto completo do início ao fim.
+
