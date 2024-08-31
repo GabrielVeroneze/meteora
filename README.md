@@ -241,3 +241,41 @@ Também é possível clonar o repositório usando o seguinte comando:
 ```
 git clone https://github.com/GabrielVeroneze/meteora.git
 ```
+
+## :clipboard: Instruções
+
+Para configurar e executar este projeto localmente, você precisará seguir estas etapas:
+
+1. Certifique-se de que o Node.js está instalado em seu computador. Caso não esteja, faça o download e a instalação através do site oficial:
+
+    https://nodejs.org/
+
+2. Abra o terminal e navegue até a pasta raiz do projeto utilizando o comando `cd`. Por exemplo:
+
+    ```
+    cd meteora
+    ```
+
+3. Antes de iniciar a aplicação, instale todas as dependências necessárias executando o seguinte comando:
+
+    ```
+    npm install
+    ```
+
+    Este comando instalará todas as dependências listadas no arquivo `package.json`.
+
+4. Após a instalação das dependências, inicie o JSON Server para disponibilizar os dados da API, executando o comando:
+
+    ```
+    npx json-server --watch mock/db.json
+    ```
+
+    Isso iniciará o JSON Server na porta 3000 usando o arquivo `db.json` como banco de dados.
+
+5. Após a inicialização do JSON Server, inicie o servidor de desenvolvimento executando o seguinte comando:
+
+    ```
+    npm run dev
+    ```
+
+    Você receberá uma mensagem com a URL de execução da aplicação, geralmente em http://localhost:5173.
