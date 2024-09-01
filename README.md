@@ -288,3 +288,9 @@ A 7ª Edição do Challenge Front-End proporciona uma experiência prática e de
 
 O Challenge Front-End é uma abordagem baseada em desafios, onde os participantes se envolvem com um problema específico e exploram soluções por meio de cursos, conteúdos, interações e seus próprios conhecimentos. É uma simulação de um desafio real do mundo profissional, incentivando a aplicação prática e criativa das habilidades dos participantes.
 
+### História do Projeto
+
+A empresa Meteora, especializada em moda, decidiu expandir sua presença digital através de um e-commerce de roupas. O objetivo é criar uma plataforma que ofereça uma experiência de compra intuitiva e envolvente, permitindo que os clientes explorem e adquiram produtos com facilidade.
+
+Para isso, o site deve oferecer uma página inicial com buscador, carrossel, galerias de produtos, modal de informações detalhadas, cadastro na newsletter e rodapé informativo, garantindo uma experiência de compra fluida e acessível.
+
