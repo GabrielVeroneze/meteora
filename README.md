@@ -294,3 +294,7 @@ A empresa Meteora, especializada em moda, decidiu expandir sua presença digital
 
 Para isso, o site deve oferecer uma página inicial com buscador, carrossel, galerias de produtos, modal de informações detalhadas, cadastro na newsletter e rodapé informativo, garantindo uma experiência de compra fluida e acessível.
 
+### Desenvolvimento Ágil com Trello
+
+Durante cada semana, foram definidas metas específicas para orientar o trabalho em diversas áreas do projeto. A seguir, estão as principais tarefas de cada semana:
+
