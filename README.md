@@ -296,6 +296,8 @@ Para isso, o site deve oferecer uma página inicial com buscador, carrossel, gal
 
 ### Desenvolvimento Ágil com Trello
 
+Durante o período de quatro semanas, o projeto foi desenvolvido seguindo uma metodologia ágil, utilizando o Trello para gerenciar as tarefas desde o início até a conclusão do projeto.
+
 Durante cada semana, foram definidas metas específicas para orientar o trabalho em diversas áreas do projeto. A seguir, estão as principais tarefas de cada semana:
 
 #### Semana 1
