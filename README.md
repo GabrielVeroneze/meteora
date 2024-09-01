@@ -1,3 +1,34 @@
+## Índice
+
+-   [Descrição](#descricao)
+-   [Páginas e Componentes](#building_construction-páginas-e-componentes)
+    -   [Página Home](#página-home)
+-   [Funcionalidades e Recursos](#rocket-funcionalidades-e-recursos)
+    -   [Navegação e Acesso](#navegação-e-acesso)
+    -   [Exploração de Produtos](#exploração-de-produtos)
+    -   [Busca e Filtros](#busca-e-filtros)
+    -   [Exibição de Modais](#exibição-de-modais)
+    -   [Validação de Formulários](#validação-de-formulários)
+    -   [Interface Responsiva](#interface-responsiva)
+-   [Desenvolvimento e Implementação](#toolbox-desenvolvimento-e-implementação)
+    -   [Desenvolvimento com React](#desenvolvimento-com-react)
+    -   [Tipagem com TypeScript](#tipagem-com-typescript)
+    -   [Roteamento com React Router](#roteamento-com-react-router)
+    -   [Gerenciamento de Estado com Context API](#gerenciamento-de-estado-com-context-api)
+    -   [Manipulação de Formulários com React Hook Form](#manipulação-de-formulários-com-react-hook-form)
+    -   [Validação de Dados com Zod](#validação-de-dados-com-zod)
+    -   [Comunicação com API via Axios](#comunicação-com-api-via-axios)
+    -   [Estilização com Sass](#estilização-com-sass)
+    -   [Construção de Layout](#construção-de-layout)
+    -   [Utilização de Pacotes](#utilização-de-pacotes)
+-   [Ferramentas Utilizadas](#computer-ferramentas-utilizadas)
+-   [Acesso ao Projeto](#open_file_folder-acesso-ao-projeto)
+-   [Instruções](#clipboard-instruções)
+-   [Sobre o Challenge](#trophy-sobre-o-challenge)
+    -   [O que é um Challenge?](#o-que-é-um-challenge)
+    -   [História do Projeto](#história-do-projeto)
+    -   [Desenvolvimento Ágil com Trello](#desenvolvimento-ágil-com-trello)
+
 <h1 align="center" id="descricao"><img width="250px" src="https://github.com/user-attachments/assets/8e7c44e5-7ece-4821-a625-98fb1be5b6ec"></h1>
 
 <p align="center">A Meteora é uma plataforma de e-commerce especializada em roupas atemporais, casuais e elegantes. Acreditando que a moda vai além das tendências passageiras, a Meteora oferece peças versáteis que se adaptam a diferentes estilos e ocasiões.</p>
