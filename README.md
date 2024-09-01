@@ -298,3 +298,36 @@ Para isso, o site deve oferecer uma página inicial com buscador, carrossel, gal
 
 Durante cada semana, foram definidas metas específicas para orientar o trabalho em diversas áreas do projeto. A seguir, estão as principais tarefas de cada semana:
 
+#### Semana 1
+
+-   Implementação do cabeçalho com suporte à responsividade.
+
+-   Desenvolvimento do banner principal.
+
+-   Criação das seções de categorias, facilidades e produtos.
+
+-   Adaptação das seções criadas para garantir a responsividade.
+
+#### Semana 2
+
+-   Implementação da seção de inscrição na newsletter.
+
+-   Desenvolvimento do rodapé.
+
+-   Criação e ajuste do carrossel.
+
+-   Desenvolvimento dos modais de produtos e da newsletter.
+
+-   Ajuste da responsividade dos modais.
+
+#### Semanas 3 & 4
+
+-   Integração com a API para listagem dinâmica de produtos na galeria.
+
+-   Implementação de filtros de produtos por categoria.
+
+-   Desenvolvimento da funcionalidade de busca por produtos.
+
+-   Implementação das funcionalidades para abertura e fechamento de modais.
+
+-   Validação dos dados no formulário de inscrição da newsletter.
