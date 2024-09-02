@@ -1,3 +1,7 @@
+Este projeto foi desenvolvido como parte do Challenge Front-End 7ª Edição promovido pela Alura. Durante quatro semanas, os participantes tiveram a oportunidade de praticar e expandir seus conhecimentos em desenvolvimento web, resultando na criação da Meteora, uma plataforma de e-commerce dedicada à venda de roupas atemporais e elegantes. Este README contém informações detalhadas sobre as funcionalidades, recursos e instruções para a execução da aplicação.
+
+<hr>
+
 ## Índice
 
 -   [Descrição](#descricao)
