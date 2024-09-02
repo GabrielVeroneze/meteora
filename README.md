@@ -50,7 +50,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 <details>
     <summary><b>:camera: Visualizar Screenshot</b></summary>
     <br />
-    <img src="" />
+    <img src="https://github.com/user-attachments/assets/914462e3-be8e-4c2d-95b7-21443e7406d9" />
 </details>
 
 ## :rocket: Funcionalidades e Recursos
