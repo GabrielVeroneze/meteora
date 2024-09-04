@@ -1,0 +1,52 @@
+@use '@/sass/variaveis' as *;
+@use '@/sass/mixins' as *;
+@use '@/sass/extends' as *;
+
+.principal {
+    @extend %principal;
+    background: url('src/assets/images/construcao.png') center bottom 1.5rem /
+        200px no-repeat;
+    justify-items: center;
+
+    .titulo {
+        color: $cor-texto-escuro;
+        font-size: $fonte-titulo-medio;
+        font-weight: $fonte-peso-medio;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .texto {
+        color: $cor-texto-acinzentado;
+        font-size: $fonte-paragrafo-medio;
+        font-weight: $fonte-peso-normal;
+        line-height: normal;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@include breakpoint(tablet) {
+    .principal {
+        background-position: center;
+
+        .titulo {
+            font-size: $fonte-titulo-grande;
+        }
+
+        .texto {
+            font-size: $fonte-paragrafo-grande;
+            width: 50%;
+        }
+    }
+}
+
+@include breakpoint(desktop) {
+    .principal {
+        background-size: 250px;
+
+        .titulo {
+            font-size: $fonte-titulo-muito-grande;
+        }
+    }
+}
