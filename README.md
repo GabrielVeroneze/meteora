@@ -62,7 +62,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="https://github.com/user-attachments/assets/07726273-eef7-43f1-8feb-b20f193b182e" />
+        <img src="" />
     </details>
 
 ### Exploração de Produtos
