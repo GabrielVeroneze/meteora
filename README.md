@@ -72,7 +72,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="" />
+        <img src="https://github.com/user-attachments/assets/581bd527-f6d3-42ed-b6f4-b17fced4a919" />
     </details>
 
 -   `Visão Geral de Produtos`: Exibe produtos em formato de cartões, cada um contendo imagem, título, descrição, preço e um botão "Ver mais" que mostra detalhes completos do produto.
@@ -80,7 +80,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="" />
+        <img src="https://github.com/user-attachments/assets/46b5fa05-b31c-4bc3-bfe6-c9b8e1bd7dbc" />
     </details>
 
 ### Busca e Filtros
