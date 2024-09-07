@@ -90,7 +90,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="" />
+        <img src="https://github.com/user-attachments/assets/3ecd838f-f039-4105-8df5-0fdfcd8a9cf7" />
     </details>
 
 -   `Seleção de Categoria`: Permite ao usuário selecionar entre diferentes categorias e visualizar todos os produtos relacionados à categoria escolhida, facilitando a busca por produtos específicos dentro dessa categoria.
@@ -98,7 +98,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="" />
+        <img src="https://github.com/user-attachments/assets/3a5068be-54ad-4911-a3ee-bfaea9351aab" />
     </details>
 
 ### Exibição de Modais
