@@ -108,7 +108,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="" />
+        <img src="https://github.com/user-attachments/assets/074d76c7-742d-4bbf-a054-0470dc139854" />
     </details>
 
 -   `Notificação de Inscrição`: Após o cadastro na newsletter, um modal é exibido confirmando o sucesso da operação, incluindo um cabeçalho de confirmação e informações sobre as próximas novidades.
@@ -116,7 +116,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="" />
+        <img src="https://github.com/user-attachments/assets/56b97912-943f-45c2-99f5-e1b010ceede9" />
     </details>
 
 -   `Controle de Modais`: Ambos os modais (produto e newsletter) possuem a funcionalidade de abrir ao clicar no item correspondente e fechar ao clicar no ícone de "X", proporcionando uma interação intuitiva.
@@ -124,7 +124,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="" />
+        <img src="https://github.com/user-attachments/assets/d0eda372-8512-4687-933f-e09544331381" />
     </details>
 
 ### Validação de Formulários
