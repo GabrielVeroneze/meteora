@@ -103,7 +103,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 ### Exibição de Modais
 
--   `Detalhes do Produto`: Ao clicar em "Ver mais", um modal é aberto exibindo detalhes completos do produto, incluindo imagem, nome, descrição, preço, informações do vendedor, opções de cor e tamanho, e um botão "Adicionar à sacola".
+-   `Detalhes do Produto`: Ao clicar em "Ver mais", um modal é aberto exibindo detalhes do produto, incluindo imagem, nome, descrição, preço, informações do vendedor, opções de cor e tamanho, e um botão "Adicionar à sacola".
 
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
