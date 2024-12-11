@@ -181,7 +181,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Configuração de Rotas`: Configura rotas na aplicação com `BrowserRouter`, `Routes` e `Route`, permitindo a navegação entre diferentes páginas e componentes.
 
--   `Rotas Aninhadas`: Implementa rotas aninhadas para estruturar a navegação de maneira hierárquica e organizada.
+-   `Rotas Aninhadas`: Implementa rotas aninhadas que permitem estruturar a navegação de maneira hierárquica, organizada e intuitiva para os usuários.
 
 -   `Parâmetros de Rotas`: Define parâmetros de URL com `:parameter` e utiliza o hook `useParams` para acessar e manipular esses parâmetros.
 
