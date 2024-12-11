@@ -185,7 +185,7 @@ A Página Home é o ponto de entrada da plataforma, onde os usuários podem expl
 
 -   `Parâmetros de Rotas`: Define parâmetros de URL com `:parameter` e utiliza o hook `useParams` para acessar e manipular esses parâmetros.
 
--   `Links e Navegação`: Utiliza os componentes `Link` e `NavLink` para criar uma navegação suave e intuitiva entre as páginas.
+-   `Links e Navegação`: Utiliza os componentes `Link` e `NavLink` para criar uma navegação suave, eficiente e intuitiva entre as páginas.
 
 -   `Navegação Programática`: Usa o hook `useNavigate` para realizar navegação programática, permitindo redirecionar o usuário com base em ações específicas.
 
