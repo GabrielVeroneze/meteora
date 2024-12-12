@@ -1,4 +1,4 @@
-export interface IProdutoInfo {
+export interface ProdutoInfo {
     nome: string
     descricao: string
     preco: number

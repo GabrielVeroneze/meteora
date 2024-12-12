@@ -1,4 +1,4 @@
-export interface ICategoria {
+export interface Categoria {
     id: number
     nome: string
     link: string
