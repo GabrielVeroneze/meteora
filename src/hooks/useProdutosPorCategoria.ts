@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { jsonServerApi } from '@/services/api'
-import { IProduto } from '@/types/IProduto'
+import { Produto } from '@/types/Produto'
 
 export const useProdutosPorCategoria = () => {
     const { categoria } = useParams()
-    const [produtos, setProdutos] = useState<IProduto[]>([])
+    const [produtos, setProdutos] = useState<Produto[]>([])
 
     useEffect(() => {
         if (categoria) {
@@ -15,7 +15,7 @@ export const useProdutosPorCategoria = () => {
 
     const buscarProdutosPorCategoria = (categoria: string) => {
         jsonServerApi
-            .get<IProduto[]>('produtos', {
+            .get<Produto[]>('produtos', {
                 params: {
                     categoria: categoria,
                 },

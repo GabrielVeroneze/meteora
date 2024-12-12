@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { IProduto } from '@/types/IProduto'
+import { Produto } from '@/types/Produto'
 import { ModalProdutoContext } from './ModalProdutoContext'
 
 interface ModalProdutoProviderProps {
@@ -8,9 +8,9 @@ interface ModalProdutoProviderProps {
 
 export const ModalProdutoProvider = ({ children }: ModalProdutoProviderProps) => {
     const [modalEstaAberto, setModalEstaAberto] = useState<boolean>(false)
-    const [produtoSelecionado, setProdutoSelecionado] = useState<IProduto | null>(null)
+    const [produtoSelecionado, setProdutoSelecionado] = useState<Produto | null>(null)
 
-    const abrirModal = (produto: IProduto) => {
+    const abrirModal = (produto: Produto) => {
         setProdutoSelecionado(produto)
         setModalEstaAberto(true)
     }

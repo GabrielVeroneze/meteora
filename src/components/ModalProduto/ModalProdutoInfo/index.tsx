@@ -1,5 +1,5 @@
 import { formatarPrecoEmReal } from '@/utilities/formatarPreco'
-import { IProdutoInfo } from '@/types/IProdutoInfo'
+import { ProdutoInfo } from '@/types/ProdutoInfo'
 import styles from './ModalProdutoInfo.module.scss'
 
 const ModalProdutoInfo = ({
@@ -7,7 +7,7 @@ const ModalProdutoInfo = ({
     descricao,
     preco,
     fornecedor,
-}: IProdutoInfo) => {
+}: ProdutoInfo) => {
     return (
         <div className={styles.info}>
             <h5 className={styles.nome}>{nome}</h5>

@@ -1,10 +1,10 @@
 import { createContext } from 'react'
-import { IProduto } from '@/types/IProduto'
+import { Produto } from '@/types/Produto'
 
 interface ModalProdutoContextType {
     modalEstaAberto: boolean
-    produtoSelecionado: IProduto | null
-    abrirModal: (produto: IProduto) => void
+    produtoSelecionado: Produto | null
+    abrirModal: (produto: Produto) => void
     fecharModal: () => void
 }
 

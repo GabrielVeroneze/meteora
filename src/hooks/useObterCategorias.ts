@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { jsonServerApi } from '@/services/api'
-import { ICategoria } from '@/types/ICategoria'
+import { Categoria } from '@/types/Categoria'
 
 export const useObterCategorias = () => {
-    const [categorias, setCategorias] = useState<ICategoria[]>([])
+    const [categorias, setCategorias] = useState<Categoria[]>([])
 
     useEffect(() => {
         buscarCategorias()
@@ -11,7 +11,7 @@ export const useObterCategorias = () => {
 
     const buscarCategorias = () => {
         jsonServerApi
-            .get<ICategoria[]>('categorias')
+            .get<Categoria[]>('categorias')
             .then(resposta => {
                 setCategorias(resposta.data)
             })

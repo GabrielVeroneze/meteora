@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { jsonServerApi } from '@/services/api'
-import { IProduto } from '@/types/IProduto'
+import { Produto } from '@/types/Produto'
 
 export const useObterProdutos = () => {
-    const [produtos, setProdutos] = useState<IProduto[]>([])
+    const [produtos, setProdutos] = useState<Produto[]>([])
 
     useEffect(() => {
         buscarProdutos()
@@ -11,7 +11,7 @@ export const useObterProdutos = () => {
 
     const buscarProdutos = () => {
         jsonServerApi
-            .get<IProduto[]>('produtos')
+            .get<Produto[]>('produtos')
             .then(resposta => {
                 setProdutos(resposta.data)
             })

@@ -1,11 +1,11 @@
 import { useModalProduto } from '@/context/modalProduto/useModalProduto'
 import { formatarPrecoEmReal } from '@/utilities/formatarPreco'
-import { IProduto } from '@/types/IProduto'
+import { Produto } from '@/types/Produto'
 import Botao from '@/components/Botao'
 import styles from './CardProduto.module.scss'
 
 interface CardProdutoProps {
-    produto: IProduto
+    produto: Produto
 }
 
 const CardProduto = ({ produto }: CardProdutoProps) => {

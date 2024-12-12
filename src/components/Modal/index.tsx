@@ -1,10 +1,10 @@
 import { useEffect, useRef } from 'react'
-import { IModal } from '@/types/IModal'
+import { Modal } from '@/types/Modal'
 import BotaoIcone from '@/components/BotaoIcone'
 import icones from '@/assets/icons'
 import styles from './Modal.module.scss'
 
-interface ModalProps extends IModal {
+interface ModalProps extends Modal {
     children: React.ReactNode
     titulo: string
 }
