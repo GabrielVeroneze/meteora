@@ -1,5 +1,5 @@
 import { useModalProduto } from '@/context/modalProduto/useModalProduto'
-import Modal from '@/components/Modal'
+import ModalDialog from '@/components/ModalDialog'
 import Botao from '@/components/Botao'
 import ModalProdutoInfo from './ModalProdutoInfo'
 import ModalProdutoSelecao from './ModalProdutoSelecao'
@@ -13,7 +13,7 @@ const ModalProduto = () => {
     const { imagem, alt, nome, descricao, preco, fornecedor } = produtoSelecionado
 
     return (
-        <Modal
+        <ModalDialog
             titulo="Confira detalhes sobre o produto"
             estaAberto={modalEstaAberto}
             onFechar={fecharModal}
@@ -52,7 +52,7 @@ const ModalProduto = () => {
                     <Botao>Adicionar à sacola</Botao>
                 </form>
             </section>
-        </Modal>
+        </ModalDialog>
     )
 }
 

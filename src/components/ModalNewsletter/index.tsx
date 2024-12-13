@@ -1,12 +1,12 @@
 import { useModalNewsletter } from '@/context/modalNewsletter/useModalNewsletter'
-import Modal from '@/components/Modal'
+import ModalDialog from '@/components/ModalDialog'
 import styles from './ModalNewsletter.module.scss'
 
 const ModalNewsletter = () => {
     const { modalEstaAberto, fecharModal } = useModalNewsletter()
 
     return (
-        <Modal
+        <ModalDialog
             titulo="E-mail cadastrado com sucesso!"
             estaAberto={modalEstaAberto}
             onFechar={fecharModal}
@@ -16,7 +16,7 @@ const ModalNewsletter = () => {
                     Em breve você receberá novidades exclusivas da Meteora.
                 </p>
             </section>
-        </Modal>
+        </ModalDialog>
     )
 }
 
