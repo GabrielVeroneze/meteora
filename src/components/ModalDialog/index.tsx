@@ -2,14 +2,14 @@ import { useEffect, useRef } from 'react'
 import { Modal } from '@/types/Modal'
 import BotaoIcone from '@/components/BotaoIcone'
 import icones from '@/assets/icons'
-import styles from './Modal.module.scss'
+import styles from './ModalDialog.module.scss'
 
-interface ModalProps extends Modal {
+interface ModalDialogProps extends Modal {
     children: React.ReactNode
     titulo: string
 }
 
-const Modal = ({ children, titulo, estaAberto, onFechar }: ModalProps) => {
+const ModalDialog = ({ children, titulo, estaAberto, onFechar }: ModalDialogProps) => {
     const modalRef = useRef<HTMLDialogElement | null>(null)
 
     useEffect(() => {
@@ -31,4 +31,4 @@ const Modal = ({ children, titulo, estaAberto, onFechar }: ModalProps) => {
     )
 }
 
-export default Modal
+export default ModalDialog
