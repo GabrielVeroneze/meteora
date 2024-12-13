@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
-import { jsonServerApi } from '@/services/api'
 import { Produto } from '@/types/Produto'
+import api from '@/services/api'
 
 export const usePesquisarPorProdutos = () => {
     const [produtos, setProdutos] = useState<Produto[]>([])
@@ -17,7 +17,7 @@ export const usePesquisarPorProdutos = () => {
     }, [query])
 
     const pesquisarProdutos = (query: string) => {
-        jsonServerApi
+        api
             .get<Produto[]>('produtos', {
                 params: {
                     nome_like: query,
