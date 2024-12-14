@@ -1,20 +1,21 @@
 import { useEffect, useState } from 'react'
+import { buscarCategorias } from '@/services/categorias'
 import { Categoria } from '@/types/Categoria'
-import api from '@/services/api'
 
 export const useObterCategorias = () => {
     const [categorias, setCategorias] = useState<Categoria[]>([])
 
     useEffect(() => {
-        buscarCategorias()
+        carregarCategorias()
     }, [])
 
-    const buscarCategorias = () => {
-        api
-            .get<Categoria[]>('categorias')
-            .then(resposta => {
-                setCategorias(resposta.data)
-            })
+    const carregarCategorias = async () => {
+        try {
+            const categoriasObtidas = await buscarCategorias()
+            setCategorias(categoriasObtidas)
+        } catch (erro) {
+            console.log(erro)
+        }
     }
 
     return {
