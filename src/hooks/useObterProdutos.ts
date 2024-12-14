@@ -1,20 +1,21 @@
 import { useEffect, useState } from 'react'
+import { buscarProdutos } from '@/services/produtos'
 import { Produto } from '@/types/Produto'
-import api from '@/services/api'
 
 export const useObterProdutos = () => {
     const [produtos, setProdutos] = useState<Produto[]>([])
 
     useEffect(() => {
-        buscarProdutos()
+        carregarProdutos()
     }, [])
 
-    const buscarProdutos = () => {
-        api
-            .get<Produto[]>('produtos')
-            .then(resposta => {
-                setProdutos(resposta.data)
-            })
+    const carregarProdutos = async () => {
+        try {
+            const produtosObtidos = await buscarProdutos()
+            setProdutos(produtosObtidos)
+        } catch (erro) {
+            console.log(erro)
+        }
     }
 
     return {
