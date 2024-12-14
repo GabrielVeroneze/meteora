@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { buscarProdutosPorCategoria } from '@/services/produtos'
 import { Produto } from '@/types/Produto'
-import api from '@/services/api'
 
 export const useProdutosPorCategoria = () => {
     const { categoria } = useParams()
@@ -9,20 +9,17 @@ export const useProdutosPorCategoria = () => {
 
     useEffect(() => {
         if (categoria) {
-            buscarProdutosPorCategoria(categoria)
+            carregarProdutosPorCategoria(categoria)
         }
     }, [categoria])
 
-    const buscarProdutosPorCategoria = (categoria: string) => {
-        api
-            .get<Produto[]>('produtos', {
-                params: {
-                    categoria: categoria,
-                },
-            })
-            .then(resposta => {
-                setProdutos(resposta.data)
-            })
+    const carregarProdutosPorCategoria = async (categoria: string) => {
+        try {
+            const produtosEncontrados = await buscarProdutosPorCategoria(categoria)
+            setProdutos(produtosEncontrados)
+        } catch (erro) {
+            console.log(erro)
+        }
     }
 
     return {
