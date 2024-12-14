@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import { buscarProdutosPorNome } from '@/services/produtos'
 import { Produto } from '@/types/Produto'
-import api from '@/services/api'
 
 export const usePesquisarPorProdutos = () => {
     const [produtos, setProdutos] = useState<Produto[]>([])
@@ -16,16 +16,13 @@ export const usePesquisarPorProdutos = () => {
         }
     }, [query])
 
-    const pesquisarProdutos = (query: string) => {
-        api
-            .get<Produto[]>('produtos', {
-                params: {
-                    nome_like: query,
-                },
-            })
-            .then(resposta => {
-                setProdutos(resposta.data)
-            })
+    const pesquisarProdutos = async (query: string) => {
+        try {
+            const produtosEncontrados = await buscarProdutosPorNome(query)
+            setProdutos(produtosEncontrados)
+        } catch (erro) {
+            console.log(erro)
+        }
     }
 
     return {
