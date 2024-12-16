@@ -1,0 +1,32 @@
+[
+    {
+        "id": "impactoPositivo",
+        "imagem": {
+            "mobile": "/assets/images/banners/impacto-positivo-mobile.png",
+            "tablet": "/assets/images/banners/impacto-positivo-tablet.png",
+            "desktop": "/assets/images/banners/impacto-positivo-desktop.png",
+            "alt": "Banner de moda com uma pessoa vestindo uma jaqueta rosa brilhante e jeans azuis contra um fundo roxo com linhas verticais."
+        },
+        "conteudo": "<img src='src/assets/images/logo-clara-com-texto.png' alt='Logotipo da Meteora' />"
+    },
+    {
+        "id": "estiloQualidade",
+        "imagem": {
+            "mobile": "/assets/images/banners/estilo-qualidade-mobile.png",
+            "tablet": "/assets/images/banners/estilo-qualidade-tablet.png",
+            "desktop": "/assets/images/banners/estilo-qualidade-desktop.png",
+            "alt": "Banner promocional da \"Coleção Atemporal\" com uma pessoa de perfil tocando o cabelo e olhando para o lado, sobre um fundo rosa sólido."
+        },
+        "conteudo": "<h1>Coleção Atemporal</h1><p>Estilo e qualidade para durar.</p>"
+    },
+    {
+        "id": "impactoVisual",
+        "imagem": {
+            "mobile": "/assets/images/banners/impacto-visual-mobile.png",
+            "tablet": "/assets/images/banners/impacto-visual-tablet.png",
+            "desktop": "/assets/images/banners/impacto-visual-desktop.png",
+            "alt": "Banner da \"Coleção Atemporal\" com uma pessoa em um terno branco, em frente a um fundo laranja vibrante com linhas verticais."
+        },
+        "conteudo": "<h1>Coleção Atemporal</h1><p>Alto impacto visual, baixo impacto ambiental.</p>"
+    }
+]
