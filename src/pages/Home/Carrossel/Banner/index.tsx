@@ -1,7 +1,8 @@
+import parse from 'html-react-parser'
 import styles from './Banner.module.scss'
 
 interface BannerProps {
-    children: React.ReactNode
+    children: string
     imagem: {
         mobile: string
         tablet: string
@@ -22,7 +23,7 @@ const Banner = ({ children, imagem }: BannerProps) => {
                     alt={imagem.alt}
                 />
             </picture>
-            <div className={styles.conteudo}>{children}</div>
+            <div className={styles.conteudo}>{parse(children)}</div>
         </div>
     )
 }
