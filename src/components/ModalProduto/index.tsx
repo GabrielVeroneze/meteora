@@ -19,11 +19,7 @@ const ModalProduto = () => {
             onFechar={fecharModal}
         >
             <section className={styles.conteudo}>
-                <img
-                    className={styles.imagem}
-                    src={imagem}
-                    alt={alt}
-                />
+                <img className={styles.imagem} src={imagem} alt={alt} />
                 <ModalProdutoInfo
                     nome={nome}
                     descricao={descricao}
@@ -33,21 +29,13 @@ const ModalProduto = () => {
                 <form className={styles.formulario}>
                     <ModalProdutoSelecao
                         titulo="Cores:"
-                        opcoes={[
-                            { id: 'azul-claro', name: 'cor', label: 'Azul claro' },
-                            { id: 'offwhite', name: 'cor', label: 'Offwhite' },
-                            { id: 'preto', name: 'cor', label: 'Preto' },
-                        ]}
+                        name="cor"
+                        opcoes={['Azul claro', 'Offwhite', 'Preto']}
                     />
                     <ModalProdutoSelecao
                         titulo="Tamanho:"
-                        opcoes={[
-                            { id: 'tamanho-p', name: 'tamanho', label: 'P' },
-                            { id: 'tamanho-pp', name: 'tamanho', label: 'PP' },
-                            { id: 'tamanho-m', name: 'tamanho', label: 'M' },
-                            { id: 'tamanho-g', name: 'tamanho', label: 'G' },
-                            { id: 'tamanho-gg', name: 'tamanho', label: 'GG' },
-                        ]}
+                        name="tamanho"
+                        opcoes={['P', 'PP', 'M', 'G', 'GG']}
                     />
                     <Botao>Adicionar à sacola</Botao>
                 </form>
